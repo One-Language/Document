@@ -47,7 +47,5 @@ ecosystem.</li>
 integration for code completion and inline error messages.</li>
 </ul>
 
-
 <a class="header" href="#source-code" id="source-code"><h2>Source Code</h2></a>
 <p>The source files from which this book is generated can be found on <a href="https://github.com/">GitHub</a>.</p>
-
