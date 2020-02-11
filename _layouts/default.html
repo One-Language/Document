@@ -1,0 +1,40 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+	<head>
+		<title>{{ page.title }}</title>
+		{% if page.external_url %}
+		<link rel="canonical" href="{{ page.external_url }}">
+		{% else %}
+			{% if page.blogCanonical %}
+			<link rel="canonical" href="{{ site.url }}/{{ page.blogCanonical }}">
+			{% else %}
+			<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+			{% endif %}
+		{% endif %}
+		{% if page.noindex %}
+		<meta name="robots" content="noindex, nofollow">
+		{% else %}
+			{% if page.private %}
+				{% if page.index %}
+				{% else %}
+				<meta name="robots" content="noindex, nofollow">
+				{% endif %}
+			{% endif %}
+		{% endif %}
+		<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="{{ site.url }}/assets/image/favicon.ico">
+	</head>
+	<body>
+		{{ content }}
+		<div class="clear"></div>
+		<br>
+		<center>
+			Powered by <b><a href="https://www.aterd.com/">Aterd co</a></b>
+		</center>
+		<br>
+	</body>
+</html>
