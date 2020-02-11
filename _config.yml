@@ -1,6 +1,6 @@
 # languages: ["en", "fa"]
 lang: en
-url: http://one-language.github.io/Document
+url: https://one-language.github.io/Document
 languages: ["en", "fa"]
 permalink: /:categories/:title/
 # - /:year/:month/:day/:categories/:title/
