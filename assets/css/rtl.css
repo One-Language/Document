@@ -1,0 +1,25 @@
+html.rtl {
+	direction: rtl;
+}
+html.rtl .left {
+	float: right;
+}
+html.rtl .right {
+	float: left;
+}
+html.rtl .page-wrapper {
+	left: 0;
+	margin-right: 300px;
+}
+html.rtl .sidebar {
+	right: 0;
+}
+html.rtl .content a.header:target h1::before,
+html.rtl .content a.header:target h2::before,
+html.rtl .content a.header:target h3::before,
+html.rtl .content a.header:target h4::before {
+	margin-right: -30px;
+}
+.sidebar .chapter {
+	padding-right: 0;
+}

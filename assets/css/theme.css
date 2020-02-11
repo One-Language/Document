@@ -1,0 +1,54 @@
+html.theme-coal {
+	color: #98a3ad;
+	background-color: #141617;
+}
+html.theme-coal ::-webkit-scrollbar {
+	background: #141617;
+}
+html.theme-coal ::-webkit-scrollbar-thumb {
+	background: #a1adb8;
+}
+html.theme-coal .content .header:link, html.theme-coal .content .header:visited {
+	color: #98a3ad;
+}
+html.theme-coal .chapter li .active, .coal .chapter li a:hover {
+	color: #3473ad;
+}
+html.theme-coal .chapter li a {
+	color: #a1adb8;
+}
+html.theme-coal .chapter li {
+	color: #505254;
+}
+html.theme-coal .search input {
+	border: 1px solid #aaa;
+	background-color: #b7b7b7;
+	color: #000;
+}
+html.theme-coal .search-results {
+	border-bottom: 1px dashed #98a3ad;
+}
+html.theme-coal .search-results-header {
+	color: #666;
+}
+html.theme-coal .search-results-outer {
+	border-bottom: 1px dashed #98a3ad;
+}
+html.theme-coal .menu-bar > .menu-bar-sticky-container {
+	background-color: #141617;
+	border-bottom-color: #141617;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+html.theme-coal .menu-bar .icon-button, html.theme-coal .menu-bar a i {
+	color: #43484d;
+}
+html.theme-coal .mobile-nav-chapters {
+	background-color: #292c2f;
+}
+html.theme-coal .mobile-nav-chapters i:hover {
+	color: #a1adb8;
+}
+html.theme-coal .mobile-nav-chapters:visited, html.theme-coal .mobile-nav-chapters {
+	color: #43484d;
+}

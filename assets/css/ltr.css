@@ -1,0 +1,25 @@
+html.ltr {
+	direction: ltr;
+}
+html.ltr .left {
+	float: left;
+}
+html.ltr .right {
+	float: right;
+}
+html.ltr .page-wrapper {
+	right: 0;
+	margin-left: 300px;
+}
+html.ltr .sidebar {
+	left: 0;
+}
+html.ltr .content a.header:target h1::before,
+html.ltr .content a.header:target h2::before,
+html.ltr .content a.header:target h3::before,
+html.ltr .content a.header:target h4::before {
+	margin-left: -30px;
+}
+.sidebar .chapter {
+	padding-left: 0;
+}
