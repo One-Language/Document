@@ -1,0 +1,55 @@
+# languages: ["en", "fa"]
+lang: en
+url: http://one-language.github.io/Document
+languages: ["en", "fa"]
+permalink: /:categories/:title/
+# - /:year/:month/:day/:categories/:title/
+# permalink: "/:categories/:title/"
+#paginate: 2 # <- turn on pagination with two posts per page
+# plugins:
+  # - jekyll-redirect-from
+  # - octopress-minify-html
+  # - jekyll/tagging
+  # - jekyll-category-pages
+  # - jemoji
+  # - jekyll-gist
+#  - jekyll-paginate
+# tag_page_layout: tag
+# tag_page_dir: tag
+#paginate_path: "/articles/:num/"
+excerpt_separator: <!--more-->
+# env: production
+# minify_html: false
+# compress_html:
+#     clippings: []
+#     comments: []
+#     endings: []
+#     ignore:
+#     envs: []
+#     blanklines: false
+#     profile: false
+#     startings: []
+
+# collections:
+#   tags:
+#     output: true
+#     permalink: /tag/:name/ # optional
+#   categories:
+#     output: true
+#     permalink: /:name/ # optional
+# whitelist:
+  # - jekyll-redirect-from
+collections:
+  tag:
+    output: true
+    slug:
+#   fa:
+#     output: true
+#     permalink: /fa/:path/
+#   en:
+#     output: true
+#     permalink: /en/:path/
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
