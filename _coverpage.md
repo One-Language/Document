@@ -8,4 +8,5 @@
 * High performance
 
 [GitHub](https://github.com/One-Language/One)
-<a href="https://docs.onelang.org" target="_self">Get Started</a>
+<a href="#/en/" target="_self">Get Started</a> <!-- CURRENTLY ENGLISH -->
+
