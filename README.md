@@ -2,7 +2,7 @@
 
 ## Languages
 
-- English (Currently we only focused on English)
+English (Currently we only focused on English)
 
 In next steps:
 
