@@ -3,14 +3,15 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Languages
+### Languages
 
-English (Currently we only focused on English)
+- [English](#/en/)
+- [Persian](#/fa/)
 
 In next steps:
 
-- Persian
 - Turkish
+- Arabic
 - etc...
 
 
