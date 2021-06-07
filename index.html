@@ -35,7 +35,8 @@
       onlyCover: false,
       coverpage: true,
       loadSidebar: true,
-      loadNavbar: true,
+      // loadNavbar: true,
+      loadNavbar   : '_navbar.md',
       subMaxLevel: 3,
       themeColor: '#5C9DFF',
       mergeNavbar: true,
@@ -43,6 +44,10 @@
         body: "rtl",
         side: "ltr",
         bdo: "ltr"
+      },
+      themeable: {
+         readyTransition : true,
+         responsiveTables: true
       },
       search: {
         depth: 6,
