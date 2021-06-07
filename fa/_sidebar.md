@@ -1,23 +1,20 @@
-* دستور عمل ها
-    * [درباره زبان وان](en/README.md)
-    * [طریقه نصب](en/install.md)
-    * [حمایت](en/donate.md)
+<!-- docs/_sidebar.md -->
 
-* اتصال به سرور
-    * [Router](en/http/router.md)
-    * [Controller](en/http/controller.md)
-
-* توابع
-    * [Use](en/websocket/init.md)
-
-* متغییر ها
-    * [Server](en/mqtt/server.md)
-    * [Client](en/mqtt/client.md)
-
-* دستورات شرطی
-    * [Mysql](en/database/mysql.md)
-    * [Redis](en/database/redis.md)
-
-* رویداد ها
-    * [Use](en/listens.md)
-    * [MultiPort Listen](en/multi-port-listen.md)
+- **هسته**
+- [Manage asdf](core-manage-asdf)
+- [Manage Plugins](core-manage-plugins)
+- [Manage Versions](core-manage-versions)
+- [Configuration](core-configuration)
+- [All Commands](core-commands)
+- [Changelog](changelog) <!-- pulls in changelog from repo -->
+- **Plugins**
+- [Creating Plugins](plugins-create)
+- [All Plugins](plugins-all) <!-- pulls in asdf-vm/asdf-plugins readme -->
+- **Contributing**
+- [Core asdf](contributing-core-asdf)
+- [Documentation Site](contributing-doc-site)
+- [Thanks](thanks)
+- **Community & Questions**
+- [![GitHub Issues](https://icongr.am/simple/github.svg?color=808080&size=16) GitHub Issues](https://github.com/asdf-vm/asdf/issues)
+- [![GitHub Discussions](https://icongr.am/simple/github.svg?color=808080&size=16) GitHub Discussions](https://github.com/asdf-vm/asdf/discussions)
+- [![StackOverflow Tag](https://icongr.am/fontawesome/stack-overflow.svg?size=16&color=808080) StackOverflow Tag](https://stackoverflow.com/questions/tagged/asdf-vm)

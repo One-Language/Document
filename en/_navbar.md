@@ -1,3 +1,4 @@
-* Translations
-  * [:ir: Persian](fa/)
-  * [:uk: English](en/)
+- Translations
+  - [:iran: Persian](/fa/)
+  - [:uk: English](/)
+  - [Add translation](contributing-doc-site?id=translations)

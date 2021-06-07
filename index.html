@@ -1,78 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>The One Programming Language - Open-source System Programming Language</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="theme-color" content="#f60">
-  <meta name="description" content="One (onelang) is an open-source system programming language that makes it easy to build reliable, efficient and performant software.">
-  <meta name="keywords" content="one,onelang,one language,one-lang,one-language,one compiler">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-  <style>
-    .app-name-link img {
-      width: 50%;
-    }
-    .app-nav ul li ul {
-      width: 110px;
-    }
-  </style>
-</head>
-<body>
-  <div id="app"></div>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
-<!--   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github/index.js"></script>
-  <script>
-    window.$docsify = {
-      name: 'One',
-      repo: 'One-Language/Document',
-      logo: '//avatars.githubusercontent.com/u/40718659?s=200&v=4',
-      onlyCover: false,
-      coverpage: true,
-      loadSidebar: true,
-      // loadNavbar: true,
-      loadNavbar   : '_navbar.md',
-      subMaxLevel: 3,
-      themeColor: '#5C9DFF',
-      mergeNavbar: true,
-      rtl: { // For Ar and FA languages!
-        body: "rtl",
-        side: "ltr",
-        bdo: "ltr"
-      },
-      themeable: {
-         readyTransition : true,
-         responsiveTables: true
-      },
-      search: {
-        depth: 6,
-        paths: 'auto',
-        pathNamespaces: ['/'] /*Later we will adding more languages in sub-folders*/
-      },
-      auto2top: true,
-      alias: {
-        '/.*/_navbar.md': '/_navbar.md',
-      },
-      plugins: [
-        function (hook) {
-          hook.doneEach(function() {
-            pangu.spacingElementByClassName('content')
-          })
+  <head>
+    <meta charset="UTF-8">
+    <title>asdf - An extendable version manager</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="An extendable version manager">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- site theme -->
+    <link rel="stylesheet" href="https://unpkg.com/docsify-themeable@0/dist/css/theme-simple.css" title="light">
+    <!-- prismjs theme -->
+    <link rel="stylesheet" href="//unpkg.com/prismjs@1.15.0/themes/prism.css">
+    <link rel="stylesheet" href="//unpkg.com/prismjs@1.15.0/themes/prism-coy.css">
+    <link rel="stylesheet" href="//unpkg.com/prism-themes/themes/prism-ghcolors.css">
+    <link rel="stylesheet" href="//unpkg.com/prism-themes/themes/prism-atom-dark.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- edit on github plugin must appear here -->
+    <script src="scripts/docsify-edit-on-github.js"></script>
+    <script>
+      window.$docsify = {
+        name: "One Programming Language",
+        repo: "https://github.com/One-Language/One",
+        el: "#app",
+        onlyCover: true,
+        coverpage: true,
+        loadNavbar: true,
+        loadSidebar: true,
+        notFoundPage: true,
+        subMaxLevel: 2,
+        auto2top: true,
+        rtl: { // For Ar and FA languages!
+          body: "rtl",
+          side: "ltr",
+          bdo: "ltr"
         },
-        EditOnGithubPlugin.create('//github.com/One-Language/Document/blob/main/')
-      ]
-    }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/sy-records/staticfile@master/js/docsify/emoji.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
-</body>
+        alias: {
+          // ".*?/plugins-all":
+          //   "https://raw.githubusercontent.com/One-Language/One-plugins/main/README.md",
+          // ".*?/changelog":
+          //   "https://raw.githubusercontent.com/One-Language/One/main/CHANGELOG.md",
+        },
+        markdown: {
+          smartypants: true,
+        },
+        themeColor: "#deffc5",
+        formatUpdated: "{MM}/{DD} {HH}:{mm}",
+        select: {
+          detectOperatingSystem: {
+            enabled: true,
+            menuId: "operating-system",
+          },
+          sync: true,
+          theme: "classic",
+        },
+        tabs: {
+          theme: "material",
+        },
+        search: {
+          paths: "auto",
+          placeholder: {
+            "/": "Type to search",
+          },
+          noData: {
+            "/": "No Results",
+          },
+        },
+        plugins: [
+          EditOnGithubPlugin.create(
+            "https://github.com/One-Language/One/blob/main/docs/",
+            {
+              customURLs: {
+                // "https://raw.githubusercontent.com/One-Language/One-plugins/main/README.md":
+                // "https://github.com/One-Language/One-plugins/edit/main/README.md",
+                // "https://raw.githubusercontent.com/One-Language/One/main/CHANGELOG.md":
+                // "https://github.com/One-Language/One/edit/main/CHANGELOG.md",
+              },
+            }
+          ),
+        ],
+      };
+    </script>
+    <!-- docsify core -->
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <!-- docsify core plugins -->
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+    <!-- 3rd party plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-select@1"></script>
+    <script src="//unpkg.com/docsify-themeable@0"></script>
+    <script src="//unpkg.com/docsify-copy-code@2"></script>
+    <script src="//unpkg.com/docsify-tabs@1"></script>
+    <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+    <style>
+      :root {
+        /* Reduce the font size */
+        /* --base-font-size: 14px; */
+
+        /* Change the theme color hue */
+        --theme-color: #aa00d4;
+
+        /* generate new cover bg color each load */
+        --cover-background-color: ;
+        /* leave cover page title black */
+        --cover-heading-color: ;
+      }
+    </style>
+  </body>
 </html>

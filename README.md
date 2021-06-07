@@ -5,8 +5,8 @@
 
 ### Languages
 
-- [English](#/en/)
-- [Persian](#/fa/)
+- [English](/en/)
+- [Persian](/fa/)
 
 In next steps:
 

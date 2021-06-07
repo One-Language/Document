@@ -1,12 +1,14 @@
-![](https://avatars.githubusercontent.com/u/40718659?s=200&v=4 ':size=200x200')
+<img alt="The One Programming Language" src="https://user-images.githubusercontent.com/2658040/121019591-d23a2a00-c7b4-11eb-850b-66ee2adeae5b.png" width="150">
 
-# One Programming Language
+<a href="https://github.com/One-Language/" title="The One Programming Language">
+	<h1>One Programming Language</h1>
+</a>
 
-> One (onelang) is an open-source system programming language that makes it easy to build reliable, efficient and performant software.
+One is an open-source system programming language that makes it easy to build reliable, efficient and performant software.
 
-* Simple and lightweight
-* High performance
+<!-- insert asciinema or other gif here -->
 
-[GitHub](https://github.com/One-Language/One)
-<a href="#/en/" target="_self">Get Started</a> <!-- CURRENTLY ENGLISH -->
+[GitHub](https://github.com/One-Language/)
 
+[Get Started English](/en/)
+[Get Started Persian](/fa/)

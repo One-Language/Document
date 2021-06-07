@@ -1,5 +1,4 @@
-<script src="//unpkg.com/docsify-rtl/build/index.min.js"></script>
+* ترجمه ها
+  * [:uk: انگلیسی](en/)
+  * [:iran: فارسی](fa/)
 
-* Translations
-  * [:uk: English](en/)
-  * [:ir: Persian](fa/)
