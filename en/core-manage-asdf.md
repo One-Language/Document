@@ -60,20 +60,20 @@ No match for _Operating System_ and _Installation Method_ selections. Please try
 Clone only the latest branch:
 
 ```shell
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
+git clone https://github.com/One-Language/One.git ~/.asdf --branch v0.8.1
 ```
 
 Alternately, you can clone the whole repo and checkout the latest branch:
 
 ```shell
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+git clone https://github.com/One-Language/One.git ~/.asdf
 cd ~/.asdf
 git checkout "$(git describe --abbrev=0 --tags)"
 ```
 
 ### --Homebrew--
 
-!> See `asdf` and Homebrew compatibility [issues in #785](https://github.com/asdf-vm/asdf/issues/785) before continuing.
+!> See `asdf` and Homebrew compatibility [issues in #785](https://github.com/One-Language/One/issues/785) before continuing.
 
 Install using the Homebrew package manager:
 

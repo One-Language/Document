@@ -33,7 +33,7 @@ asdf plugin list
 asdf plugin list --urls
 # asdf plugin list
 # java            https://github.com/halcyon/asdf-java.git
-# nodejs          https://github.com/asdf-vm/asdf-nodejs.git
+# nodejs          https://github.com/One-Language/One-nodejs.git
 ```
 
 ## List All in Short-name Repository
@@ -57,7 +57,7 @@ asdf plugin update <name>
 # asdf plugin update erlang
 ```
 
-This update will fetch the *latest commit* on the *default branch* of the *origin* of the plugin repository. Versioned plugins and updates are currently being developed - <https://github.com/asdf-vm/asdf/pull/916>
+This update will fetch the *latest commit* on the *default branch* of the *origin* of the plugin repository. Versioned plugins and updates are currently being developed - <https://github.com/One-Language/One/pull/916>
 
 ## Remove
 

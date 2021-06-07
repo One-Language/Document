@@ -53,7 +53,7 @@ This script should install the version, in the path mentioned in `ASDF_INSTALL_P
 
 The install script should exit with a status of `0` when the installation is successful. If the installation fails the script should exit with any non-zero exit status.
 
-If possible the script should only place files in the `ASDF_INSTALL_PATH` directory once the build and installation of the tool is deemed successful by the install script. asdf [checks for the existence](https://github.com/asdf-vm/asdf/blob/242d132afbf710fe3c7ec23c68cec7bdd2c78ab5/lib/utils.sh#L44) of the `ASDF_INSTALL_PATH` directory in order to determine if that version of the tool is installed. If the `ASDF_INSTALL_PATH` directory is populated at the beginning of the installation process other asdf commands run in other terminals during the installation may consider that version of the tool installed, even when it is not fully installed.
+If possible the script should only place files in the `ASDF_INSTALL_PATH` directory once the build and installation of the tool is deemed successful by the install script. asdf [checks for the existence](https://github.com/One-Language/One/blob/242d132afbf710fe3c7ec23c68cec7bdd2c78ab5/lib/utils.sh#L44) of the `ASDF_INSTALL_PATH` directory in order to determine if that version of the tool is installed. If the `ASDF_INSTALL_PATH` directory is populated at the beginning of the installation process other asdf commands run in other terminals during the installation may consider that version of the tool installed, even when it is not fully installed.
 
 If you want your plugin to work with asdf version `0.7.*` and earlier and version `0.8.*` and newer check for the presence of the `ASDF_DOWNLOAD_PATH` environment variable. If it is not set download the source code in the bin/install callback. If it is set assume the `bin/download` script already downloaded it.
 
@@ -212,7 +212,7 @@ Normally it would be something that takes `--version` or `--help`.
 For example, to test the NodeJS plugin, we could run
 
 ```sh
-asdf plugin test nodejs https://github.com/asdf-vm/asdf-nodejs.git node --version
+asdf plugin test nodejs https://github.com/One-Language/One-nodejs.git node --version
 ```
 
 We strongly recommend you test your plugin on a CI environment and make sure it works on both Linux and OSX.
@@ -239,7 +239,7 @@ Here is a sample `.travis.yml` file, customize it to your needs
 language: c
 script: asdf plugin test nodejs $TRAVIS_BUILD_DIR 'node --version'
 before_script:
-  - git clone https://github.com/asdf-vm/asdf.git asdf
+  - git clone https://github.com/One-Language/One.git asdf
   - . asdf/asdf.sh
 os:
   - linux
@@ -278,4 +278,4 @@ cmd="$cmd $releases_path"
 
 To make it easier on your users, you can add your plugin to the official plugins repository to have your plugin listed and easily installable using a shorter command, e.g. `asdf plugin add my-plugin`.
 
-Follow the instruction at the plugins repository: [asdf-vm/asdf-plugins](https://github.com/asdf-vm/asdf-plugins).
+Follow the instruction at the plugins repository: [asdf-vm/asdf-plugins](https://github.com/One-Language/One-plugins).

@@ -2,7 +2,7 @@
 
 Me ([@HashNuke](https://github.com/HashNuke)), High-fever, cold, cough.
 
-Copyright 2014 to the end of time ([MIT License](https://github.com/asdf-vm/asdf/blob/master/LICENSE))
+Copyright 2014 to the end of time ([MIT License](https://github.com/One-Language/One/blob/master/LICENSE))
 
 ## Maintainers
 
@@ -14,4 +14,4 @@ Copyright 2014 to the end of time ([MIT License](https://github.com/asdf-vm/asdf
 
 ## Contributors
 
-See the [list of contributors](https://github.com/asdf-vm/asdf/graphs/contributors) :pray: on GitHub
+See the [list of contributors](https://github.com/One-Language/One/graphs/contributors) :pray: on GitHub

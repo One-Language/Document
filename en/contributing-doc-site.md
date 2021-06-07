@@ -15,7 +15,7 @@ Here is a list of improvements we are looking at making to the documentation. If
 
 We're using:
 
-- [Node.js](https://github.com/asdf-vm/asdf-nodejs) `v10.15.0` to support the other required tools
+- [Node.js](https://github.com/One-Language/One-nodejs) `v10.15.0` to support the other required tools
 - [docsify](https://docsify.js.org/#/) to create our documentation site
 - [prettier](https://prettier.io/) to format our markdown files
 
