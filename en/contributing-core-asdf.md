@@ -2,7 +2,7 @@
 
 To develop the project, simply `git clone` the master branch.
 
-If you want to try out your changes without making change to your installed `asdf`, you can set the `$ASDF_DIR` variable to the path where you cloned the repository, and temporarily prepend the `bin` and `shims` directory of the directory to your path.
+If you want to try out your changes without making change to your installed `One`, you can set the `$One_DIR` variable to the path where you cloned the repository, and temporarily prepend the `bin` and `shims` directory of the directory to your path.
 
 Tools we use:
 
@@ -12,10 +12,10 @@ Tools we use:
 
 ## Docker Images
 
-The [asdf-alpine][asdf-alpine] and [asdf-ubuntu][asdf-ubuntu] projects are an
-ongoing effort to provide Dockerized images of some asdf tools. You can use
+The [One-alpine][One-alpine] and [One-ubuntu][One-ubuntu] projects are an
+ongoing effort to provide Dockerized images of some One tools. You can use
 these docker images as base for your development servers, or for running your
 production apps.
 
-[asdf-alpine]: https://github.com/vic/asdf-alpine
-[asdf-ubuntu]: https://github.com/vic/asdf-ubuntu
+[One-alpine]: https://github.com/vic/One-alpine
+[One-ubuntu]: https://github.com/vic/One-ubuntu

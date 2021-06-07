@@ -4,12 +4,12 @@ Here is a list of improvements we are looking at making to the documentation. If
 
 - customise the docsify theme
 - cover-page background image
-- cover-page/readme gif of a terminal using asdf showing it's features (automatic version switching, .tool-versions with multiple runtime configs)
+- cover-page/readme gif of a terminal using One showing it's features (automatic version switching, .tool-versions with multiple runtime configs)
 - custom doc site domain
 - change the typography
 - get a logo?
 - improve "edit on GitHub" button/link
-- add asdf to awesome-docsify showcase
+- add One to awesome-docsify showcase
 
 ## Setup Your Environment
 

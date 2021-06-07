@@ -1,7 +1,7 @@
 <!-- _sidebar.md -->
 
 - **Core**
-- [Manage asdf](en/core-manage-asdf)
+- [Manage One](en/core-manage-One)
 - [Manage Plugins](en/core-manage-plugins)
 - [Manage Versions](en/core-manage-versions)
 - [Configuration](en/core-configuration)
@@ -9,9 +9,9 @@
 - [Changelog](en/changelog) <!-- pulls in changelog from repo -->
 - **Plugins**
 - [Creating Plugins](en/plugins-create)
-- [All Plugins](en/plugins-all) <!-- pulls in asdf-vm/asdf-plugins readme -->
+- [All Plugins](en/plugins-all) <!-- pulls in One-vm/One-plugins readme -->
 - **Contributing**
-- [Core asdf](en/contributing-core-asdf)
+- [Core One](en/contributing-core-One)
 - [Documentation Site](en/contributing-doc-site)
 - [Thanks](en/thanks)
 - **Community & Questions**
