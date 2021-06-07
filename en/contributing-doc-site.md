@@ -52,15 +52,19 @@ Docsify makes adding new languages quite easy. Look in `docs/index.html` for com
 ### Adding a new Translation
 
 1. create a folder in `docs/` for the new translation
+
    ```
    docs/
    docs/zh-cn/
    ```
+
 2. copy file from root `docs/_404.md` to new folder `docs/zh-cn/_404.md`
+
    ```
    docs/_404.md
    docs/zh-cn/_404.md
    ```
+
 3. replace text with translated text.
 4. repeat for all files.
 5. add a link to the new translation in `_navbar.md`.
