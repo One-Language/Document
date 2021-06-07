@@ -63,10 +63,10 @@ If you want your plugin to work with asdf version 0.7.* and earlier and version 
 
 This is not one callback script but rather a set of callback scripts that each print different documentation to STDOUT. The possible callback scripts are listed below. Note that `bin/help.overview` is a special case as it must be present for any help output to be displayed for the script.
 
-* `bin/help.overview` - This script should output a general description about the plugin and the tool being managed. No heading should be printed as asdf will print headings. Output may be free-form text but ideally only one short paragraph. This script must be present if you want asdf to provide help information for your plugin. All other help callback scripts are optional.
-* `bin/help.deps` - This script should output the list of dependencies tailored to the operating system. One dependency per line.
-* `bin/help.config` - This script should print any required or optional configuration that may be available for the plugin and tool. Any environment variables or other flags needed to install or compile the tool (for the users operating system when possible). Output can be free-form text.
-* `bin/help.links` - This should be a list of links relevant to the plugin and tool (again, tailored to the current operating system when possible). One link per line. Lines may be in the format `<title>: <link>` or just `<link>`.
+- `bin/help.overview` - This script should output a general description about the plugin and the tool being managed. No heading should be printed as asdf will print headings. Output may be free-form text but ideally only one short paragraph. This script must be present if you want asdf to provide help information for your plugin. All other help callback scripts are optional.
+- `bin/help.deps` - This script should output the list of dependencies tailored to the operating system. One dependency per line.
+- `bin/help.config` - This script should print any required or optional configuration that may be available for the plugin and tool. Any environment variables or other flags needed to install or compile the tool (for the users operating system when possible). Output can be free-form text.
+- `bin/help.links` - This should be a list of links relevant to the plugin and tool (again, tailored to the current operating system when possible). One link per line. Lines may be in the format `<title>: <link>` or just `<link>`.
 
 Each of these scripts should tailor their output to the current operating system. For example, when on Ubuntu the deps script could output the dependencies as apt-get packages that must be installed. The script should also tailor its output to the value of `ASDF_INSTALL_VERSION` and `ASDF_INSTALL_TYPE` when the variables are set. They are optional and will not always be set.
 
@@ -129,10 +129,10 @@ The script has access to the path the plugin was installed (`${ASDF_PLUGIN_PATH}
 
 See also the related hooks:
 
-* `pre_asdf_plugin_add`
-* `pre_asdf_plugin_add_${plugin_name}`
-* `post_asdf_plugin_add`
-* `post_asdf_plugin_add_${plugin_name}`
+- `pre_asdf_plugin_add`
+- `pre_asdf_plugin_add_${plugin_name}`
+- `post_asdf_plugin_add`
+- `post_asdf_plugin_add_${plugin_name}`
 
 #### bin/pre-plugin-remove
 
@@ -142,10 +142,10 @@ The script has access to the path the plugin was installed in (`${ASDF_PLUGIN_PA
 
 See also the related hooks:
 
-* `pre_asdf_plugin_remove`
-* `pre_asdf_plugin_remove_${plugin_name}`
-* `post_asdf_plugin_remove`
-* `post_asdf_plugin_remove_${plugin_name}`
+- `pre_asdf_plugin_remove`
+- `pre_asdf_plugin_remove_${plugin_name}`
+- `post_asdf_plugin_remove`
+- `post_asdf_plugin_remove_${plugin_name}`
 
 ## Extension commands for asdf CLI.
 
@@ -166,11 +166,11 @@ foo/
 Users can now execute
 
 ```shell
-$ asdf foo         # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command.bash`
-$ asdf foo bar     # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command.bash bar`
-$ asdf foo help    # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command-help.bash`
-$ asdf foo bat man # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command-bat-man.bash`
-$ asdf foo bat baz # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command-bat.bash baz`
+asdf foo         # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command.bash`
+asdf foo bar     # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command.bash bar`
+asdf foo help    # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command-help.bash`
+asdf foo bat man # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command-bat-man.bash`
+asdf foo bat baz # same as running `$ASDF_DATA_DIR/plugins/foo/lib/commands/command-bat.bash baz`
 ```
 
 Plugin authors can use this feature to provide utilities related to their tools,
