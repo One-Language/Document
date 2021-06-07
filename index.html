@@ -31,9 +31,9 @@
         subMaxLevel: 2,
         auto2top: true,
         rtl: { // For Ar and FA languages!
-          body: "rtl",
+          body: "ltr",
           side: "ltr",
-          bdo: "ltr"
+          bdo: "rtl"
         },
         alias: {
           // ".*?/plugins-all":
@@ -94,10 +94,42 @@
     <script src="//unpkg.com/docsify-tabs@1"></script>
     <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
     <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+    <!-- <script src="//unpkg.com/docsify-rtl/build/index.min.js"></script> -->
     <style>
       body[data-page^="fa/"] {
         direction: rtl !important;
         text-align: right !important;
+        /*--sidebar-width:;*/
+      }
+      body[data-page^="fa/"] .sidebar {
+        transform: none !important;
+        right: 0px !important;
+      }
+      body[data-page^="fa/"].close .sidebar {
+        right: -300px !important;
+      }
+      @media (min-width: 48em) {
+        body[data-page^="fa/"] .sidebar+.content {
+          margin-left: 0px !important;
+          margin-right: var(--sidebar-width) !important;
+        }
+      }
+      body[data-page^="fa/"] .app-nav {
+        left: 30px;
+      }
+      body[data-page^="fa/"] .sidebar-toggle {
+        transform: none !important;
+        right: var(--sidebar-width) !important;
+      }
+      body[data-page^="fa/"].close .sidebar-toggle {
+        transform: none !important;
+        right: 0px !important;
+      }
+      @media (min-width: 48em) {
+        nav.app-nav {
+          margin-left: 0px !important;
+          margin-right: var(--sidebar-width) !important;
+        }
       }
       :root {
         /* Reduce the font size */
@@ -110,6 +142,8 @@
         --cover-background-color: ;
         /* leave cover page title black */
         --cover-heading-color: ;
+
+        /*--sidebar-nav-pagelink-background-position: 10 10;*/
       }
     </style>
   </body>
