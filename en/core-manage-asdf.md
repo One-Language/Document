@@ -157,7 +157,7 @@ compinit
 - if you are using a custom `compinit` setup, ensure `compinit` is below your sourcing of `asdf.sh`
 - if you are using a custom `compinit` setup with a ZSH Framework, ensure `compinit` is below your sourcing of the framework
 
-!> if you are using a ZSH Framework the associated `asdf` plugin may need to be updated to use the new ZSH completions properly via `fpath`. The Oh-My-ZSH asdf plugin is yet to be updated, see https://github.com/ohmyzsh/ohmyzsh/pull/8837.
+!> if you are using a ZSH Framework the associated `asdf` plugin may need to be updated to use the new ZSH completions properly via `fpath`. The Oh-My-ZSH asdf plugin is yet to be updated, see <https://github.com/ohmyzsh/ohmyzsh/pull/8837>.
 
 #### --Linux,Bash,Pacman--
 
@@ -242,7 +242,7 @@ compinit
 - if you are using a custom `compinit` setup, ensure `compinit` is below your sourcing of `asdf.sh`
 - if you are using a custom `compinit` setup with a ZSH Framework, ensure `compinit` is below your sourcing of the framework
 
-!> if you are using a ZSH Framework the associated `asdf` plugin may need to be updated to use the new ZSH completions properly via `fpath`. The Oh-My-ZSH asdf plugin is yet to be updated, see https://github.com/ohmyzsh/ohmyzsh/pull/8837.
+!> if you are using a ZSH Framework the associated `asdf` plugin may need to be updated to use the new ZSH completions properly via `fpath`. The Oh-My-ZSH asdf plugin is yet to be updated, see <https://github.com/ohmyzsh/ohmyzsh/pull/8837>.
 
 #### --macOS,Bash,Homebrew--
 
