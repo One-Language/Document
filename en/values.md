@@ -7,6 +7,7 @@ Values are the built-in atomic object types that all other objects are composed 
 A boolean value represents truth or falsehood. There are two boolean literals, true and false. Their class is Bool.
 
 ## Numbers
+
 Like other scripting languages, Wren has a single numeric type: double-precision floating point. Number literals look like you expect coming from other languages:
 
 ```
@@ -105,7 +106,7 @@ Raw strings do not process escapes and do not apply any interpolation.
 
 ```
 """hi there"""
-````
+```
 
 When a raw string spans multiple lines and a triple quote is on it’s own line, any whitespace on that line will be ignored. This means the opening and closing lines are not counted as part of the string when the triple quotes are separate lines, as long as they only contain whitespace (spaces + tabs).
 
