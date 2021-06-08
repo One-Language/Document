@@ -1,16 +1,15 @@
+# Thank you from the team
+
 ## Credits
 
-Me ([@HashNuke](https://github.com/HashNuke)), High-fever, cold, cough.
+- Max Base ([@BaseMax](https://github.com/BaseMax)), One Language Creator, GitHub Developer Maintainer, Software engineer
+- John Bampton ([@jbampton](https://github.com/jbampton)), Developer Relations Engineer, Team Leader
 
-Copyright 2014 to the end of time ([MIT License](https://github.com/One-Language/One/blob/master/LICENSE))
+Copyright 2015 to the end of time ([MIT License](https://github.com/One-Language/One/blob/master/LICENSE))
 
 ## Maintainers
 
-- [@HashNuke](https://github.com/HashNuke)
-- [@danhper](https://github.com/danhper)
-- [@Stratus3D](https://github.com/Stratus3D)
-- [@vic](https://github.com/vic)
-- [@jthegedus](https://github.com/jthegedus)
+- [@NAME_OF_YOU](https://github.com/NAME_OF_YOU)
 
 ## Contributors
 
