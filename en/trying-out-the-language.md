@@ -14,7 +14,7 @@ We have an online compiler page, using this you can easily write a single-file p
 It's here:
 https://run.onelang.org/
 
-## Try on your system
+## Trying on your system
 
 For this case, you first need to install One compiler, currently, You are able to compile the One compiler in Linux (both x86_64 and i386 architecture) and macOS, and BSD family, and finally Windows OS.
 
