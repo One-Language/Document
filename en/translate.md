@@ -42,7 +42,7 @@ docsify serve docs
 From the root of this repo run:
 
 ```shell
-prettier --write "docs/**/*.md"
+prettier --write "**/*.md"
 ```
 
 ## Translations
@@ -53,18 +53,22 @@ Docsify makes adding new languages quite easy. Look in `docs/index.html` for com
 
 ### Adding a new Translation
 
-1. create a folder in `docs/` for the new translation
+1. create a folder in root for the new translation
 
    ```
-   docs/
-   docs/zh-cn/
+   ar/
+   tr/
+   fa/
+   en/
+   de/
+   se/
    ```
 
-2. copy file from root `docs/_404.md` to new folder `docs/zh-cn/_404.md`
+2. copy file from root `_404.md` to new folder `de/_404.md`
 
    ```
-   docs/_404.md
-   docs/zh-cn/_404.md
+   _404.md
+   de/_404.md
    ```
 
 3. replace text with translated text.
