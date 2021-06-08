@@ -12,7 +12,7 @@
 - [All Plugins](plugins-all) <!-- pulls in One-vm/One-plugins readme -->
 - **Contributing**
 - [Core One](contributing-core-One)
-- [Documentation Site](contributing-doc-site)
+- [سایت مستندات](fa/contributing-doc-site)
 - [Thanks](thanks)
 - **Community & Questions**
 - [![GitHub Issues](https://icongr.am/simple/github.svg?color=808080&size=16) GitHub Issues](https://github.com/One-Language/One/issues)
