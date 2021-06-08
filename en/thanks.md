@@ -2,8 +2,8 @@
 
 ## Credits
 
-- Max Base ([@BaseMax](https://github.com/BaseMax)), One Language Creator, GitHub Developer Maintainer, Software engineer
 - John Bampton ([@jbampton](https://github.com/jbampton)), Developer Relations Engineer, Team Leader
+- Max Base ([@BaseMax](https://github.com/BaseMax)), One Language Creator, GitHub Developer Maintainer, Software engineer
 
 Copyright 2015 to the end of time ([MIT License](https://github.com/One-Language/One/blob/master/LICENSE))
 
