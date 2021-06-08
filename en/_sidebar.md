@@ -3,21 +3,14 @@
 - **Getting Started**
 - [Trying out the language](en/trying-out-the-language)
 - [Syntax](en/syntax)
+- [Installing](en/installing)
 
-- **Old template MD**
-- [Manage One](en/core-manage-One)
-- [Manage Plugins](en/core-manage-plugins)
-- [Manage Versions](en/core-manage-versions)
-- [Configuration](en/core-configuration)
-- [All Commands](en/core-commands)
-- [Changelog](en/changelog) <!-- pulls in changelog from repo -->
-- **Plugins**
-- [Creating Plugins](en/plugins-create)
-- [All Plugins](en/plugins-all) <!-- pulls in One-vm/One-plugins readme -->
 - **Contributing**
+- [Translate](en/translate)
 - [Core One](en/contributing-core-One)
 - [Documentation Site](en/contributing-doc-site)
 - [Thanks](en/thanks)
+
 - **Community & Questions**
 - [![GitHub Issues](https://icongr.am/simple/github.svg?color=808080&size=16) GitHub Issues](https://github.com/One-Language/One/issues)
 - [![GitHub Discussions](https://icongr.am/simple/github.svg?color=808080&size=16) GitHub Discussions](https://github.com/One-Language/One/discussions)
