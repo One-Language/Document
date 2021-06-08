@@ -14,7 +14,7 @@ In next steps:
 - Arabic
 - etc...
 
-## Contributors
+## Contributors 🚀
 
 Thanks goes to these ✨ wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
