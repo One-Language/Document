@@ -1,9 +1,4 @@
-1. [Manage One](/core-manage-One): install `One` **and** add `One` to your shell
-2. [Manage Plugins](/core-manage-plugins): add a plugin for your tool `One plugin add nodejs`
-3. [Manage Versions](/core-manage-versions): install a version of that tool `One install nodejs 13.14.0`
-4. [Configuration](/core-configuration): set global and project tool versions via `.tool-versions` config
-
-## Install
+# Installing
 
 ### Dependencies
 
@@ -60,7 +55,7 @@ No match for _Operating System_ and _Installation Method_ selections. Please try
 Clone only the latest branch:
 
 ```shell
-git clone https://github.com/One-Language/One.git ~/.One --branch v0.8.1
+git clone https://github.com/One-Language/One.git ~/.One
 ```
 
 Alternately, you can clone the whole repo and checkout the latest branch:
@@ -68,12 +63,9 @@ Alternately, you can clone the whole repo and checkout the latest branch:
 ```shell
 git clone https://github.com/One-Language/One.git ~/.One
 cd ~/.One
-git checkout "$(git describe --abbrev=0 --tags)"
 ```
 
 ### --Homebrew--
-
-!> See `One` and Homebrew compatibility [issues in #785](https://github.com/One-Language/One/issues/785) before continuing.
 
 Install using the Homebrew package manager:
 
@@ -92,8 +84,8 @@ brew install One --HEAD
 Install using `pacman`:
 
 ```shell
-git clone https://aur.archlinux.org/One-vm.git
-cd One-vm
+git clone https://aur.archlinux.org/One.git
+cd One
 makepkg -si
 ```
 
