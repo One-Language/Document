@@ -1,6 +1,9 @@
 # https://github.com/DavidAnson/markdownlint#rules--aliases
 # markdownlint -c .github/linters/.markdown-lint.yml .
 
+# MD001/heading-increment/header-increment Heading levels should only increment by one level at a time
+MD001: false
+
 # MD013/line-length Line length
 MD013: false
 

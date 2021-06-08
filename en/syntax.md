@@ -12,7 +12,9 @@ Line comments start with // and end at the end of the line:
 // This is a comment.
 ```
 
-Block comments start with /* and end with */. They can span multiple lines:
+<!-- prettier-ignore-start -->
+Block comments start with /* and end with */. They can span multiple lines: <!-- markdownlint-disable MD037 -->
+<!-- prettier-ignore-end -->
 
 ```
 /* This

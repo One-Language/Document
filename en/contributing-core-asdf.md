@@ -12,10 +12,10 @@ Tools we use:
 
 ## Docker Images
 
-The [One-alpine][One-alpine] and [One-ubuntu][One-ubuntu] projects are an
+The [One-alpine][one-alpine] and [One-ubuntu][one-ubuntu] projects are an
 ongoing effort to provide Dockerized images of some One tools. You can use
 these docker images as base for your development servers, or for running your
 production apps.
 
-[One-alpine]: https://github.com/vic/One-alpine
-[One-ubuntu]: https://github.com/vic/One-ubuntu
+[one-alpine]: https://github.com/vic/One-alpine
+[one-ubuntu]: https://github.com/vic/One-ubuntu
