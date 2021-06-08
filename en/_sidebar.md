@@ -1,6 +1,10 @@
 <!-- _sidebar.md -->
 
-- **Core**
+- **Getting Started**
+- [Trying out the language](en/trying-out-the-language)
+- [Syntax](en/syntax)
+
+- **Old template MD**
 - [Manage One](en/core-manage-One)
 - [Manage Plugins](en/core-manage-plugins)
 - [Manage Versions](en/core-manage-versions)
