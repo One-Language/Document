@@ -11,10 +11,11 @@
 - [English](/en/)
 - [Persian](/fa/)
 
-In next steps:
+The next steps:
 
-- Turkish
 - Arabic
+- Spanish
+- Turkish
 - etc...
 
 ## Contributors 🚀
