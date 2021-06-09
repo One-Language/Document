@@ -5,11 +5,15 @@ orbs:
   percy: percy/agent@0.1.2
 
 jobs:
-  run_tests:
-    parallelism: 1
+  build:
+    docker:
+      - image: circleci/ruby:2.7.3-buster-node-browsers
+    working_directory: ~/repo
     steps:
-      - attach_workspace:
-          at: .
+      - checkout
+      - run:
+          name: 🏗️ Update npm
+          command: sudo npm install -g npm@latest
       - run:
           name: 📷 Run Percy snapshots
           command: |
@@ -18,7 +22,7 @@ jobs:
 workflows:
   test:
     jobs:
-      - run_tests
+      - build
       - percy/finalize_all:
           requires:
-            - run_tests
+            - build
