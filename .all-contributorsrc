@@ -50,6 +50,17 @@
         "maintenance",
         "security"
       ]
+    },
+    {
+      "login": "basalumutgazi",
+      "name": "basalumutgazi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81925269?v=4",
+      "profile": "https://github.com/basalumutgazi",
+      "contributions": [
+        "ideas",
+        "projectManagement",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
