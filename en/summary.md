@@ -1,4 +1,4 @@
-# SUMMARY
+# Summary
 
 ## Why do you need to use programming languages?
 
