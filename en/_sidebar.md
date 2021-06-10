@@ -2,6 +2,7 @@
 
 - **Getting Started**
 - [Trying out the language](en/trying-out-the-language)
+- [Summary](en/summary)
 - [Syntax](en/syntax)
 - [Installing](en/installing)
 
