@@ -61,6 +61,15 @@
         "projectManagement",
         "design"
       ]
+    },
+    {
+      "login": "PooiaFerdowsi",
+      "name": "PooiaFerdowsi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76428946?v=4",
+      "profile": "http://pooiaferdowsi.github.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
