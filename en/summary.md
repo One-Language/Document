@@ -63,7 +63,7 @@ Do you remember the translator analogy? Every time a word is told in French, the
 
 In programming languages, we can create variables to store data and to use it when necessary.
 
-``` text
+```text
 hello = bonjour
 car = voiture
 love = amour
@@ -80,14 +80,14 @@ Variable types section should be added here.
 
 While we are talking with our computers, we may need to tell them some conditional cases. In such situations, we use if/else statements and give computers more than one case and more than one option.
 
-``` python
+```python
 if hello = bonjour:
     print("'Bonjour' means 'Hello' in French")
 ```
 
 In the code above, the computer will print `"Bonjour" means "Hello" in French` as `hello = bonjour` but what if the condition wasn't fulfilled? Then, the computer wouldn't do anything because we didn't tell it to do. Let's give computer an else condition.
 
-``` python
+```python
 if hello = merhaba:
     print("'Merhaba' means 'Hello' in Turkish)
 else:
