@@ -2,18 +2,18 @@
 
 - **هسته**
 - [Manage One](core-manage-One)
-- [Manage Plugins](core-manage-plugins)
-- [Manage Versions](core-manage-versions)
-- [Configuration](core-configuration)
-- [All Commands](core-commands)
+- [پلاگین ها/افزونه ها را مدیریت کنید](core-manage-plugins)
+- [نسخه ها را مدیریت کنید](core-manage-versions)
+- [تنظیمات](core-configuration)
+- [همه دستورات](core-commands)
 - [Changelog](changelog) <!-- pulls in changelog from repo -->
 - **Plugins**
-- [Creating Plugins](plugins-create)
-- [All Plugins](plugins-all) <!-- pulls in One-vm/One-plugins readme -->
+- [ساخت پلاگین ها](plugins-create)
+- [تمام پلاگین ها](plugins-all) <!-- pulls in One-vm/One-plugins readme -->
 - **Contributing**
-- [Core One](contributing-core-One)
+- [هسته زبان وان](contributing-core-One)
 - [سایت مستندات](fa/contributing-doc-site)
-- [Thanks](thanks)
+- [تشکرات](thanks)
 - **Community & Questions**
 - [![GitHub Issues](https://icongr.am/simple/github.svg?color=808080&size=16) GitHub Issues](https://github.com/One-Language/One/issues)
 - [![GitHub Discussions](https://icongr.am/simple/github.svg?color=808080&size=16) GitHub Discussions](https://github.com/One-Language/One/discussions)
