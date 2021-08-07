@@ -1,5 +1,9 @@
 # Data types
 
+As explained in the previous chapter, a variable in One must be a specified data type.
+
+Here's a list of all One's data types:
+
 | Name | Bits | Data and Ranges                                          | Equivalent in C language |
 | ---- | ---- | -------------------------------------------------------- | ------------------------ |
 | i8   | 8    | [-128 - 127]                                             | signed char = int8_t     |

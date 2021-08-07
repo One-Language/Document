@@ -5,6 +5,8 @@
 - [Summary](en/summary)
 - [Syntax](en/syntax)
 - [Variables](en/variables)
+- [Data Types](en/data-types)
+- [Operators](en/operators)
 - [Installing](en/installing)
 
 - **Contributing**
