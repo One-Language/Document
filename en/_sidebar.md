@@ -7,6 +7,7 @@
 - [Variables](en/variables)
 - [Data Types](en/data-types)
 - [Operators](en/operators)
+- [Conditions](en/conditions)
 - [Installing](en/installing)
 
 - **Contributing**
