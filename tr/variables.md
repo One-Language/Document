@@ -1,51 +1,51 @@
-# Variables
+# Değişkenler (Variables)
 
-Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
+Değişkenler, bir bilgisayar programında referans alınacak ve işlenecek bilgileri depolamak için kullanılır.  Ayrıca, verileri tanımlayıcı bir adla etiketlemenin bir yolunu sağlarlar, böylece programlarımız okuyucu ve kendimiz tarafından daha net anlaşılabilir.  Değişkenleri bilgi içeren kaplar olarak düşünmek yararlıdır.  Tek amaçları, verileri bellekte etiketlemek ve depolamaktır.  Bu veriler daha sonra programınız boyunca kullanılabilir.
 
-# Declaring (Creating) Variables
-
-```
-type variable = value;
-```
-
-Where type is one of One's types (such as int or String), and variable is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
-
-## Example
+# Değişken Tanımlama (Oluşturma)
 
 ```
-String text = "One is awesome!"
-System.print(text)
+<değişken türü> <değişken adı> = <değeri>;
 ```
 
-Note that if you assign a new value to an existing variable, it will overwrite the previous value:
+Burada tür, Bir'in türlerinden biridir (int veya String gibi) ve değişken, değişkenin adıdır (x veya ad gibi).  Değişkene değer atamak için eşittir işareti kullanılır.
 
-## Example
+## Örnek
 
 ```
-String text = "One is awesome!"
-text = "One is cool :)"
-System.print(text) //the output will be: One is cool :)
+String metin = "One harika!"
+System.print(metin)
 ```
 
-# Other types
+Mevcut bir değişkene yeni bir değer atarsanız, önceki değerin üzerine yazacağını unutmayın:
 
-In One, there are different types of variables, for example:
+## Örnek
 
-## Example
+```
+String metin = "One güzel bir dil!"
+metin = "One havalı :)"
+System.print(metin) // Çıktı şöyle olacaktır: One havalı :)
+```
+
+# Diğer türler
+
+One'da farklı değişken türleri vardır, örneğin:
+
+## Örnek
 
 ```
 int number = 10;
 float floatNumber = 10.99f;
 char letter = 'O';
 boolean bool = true;
-String text = "One is awesome!";
+String metin = "One harika!";
 ```
 
-# Declare Many Variables
+# Birden Fazla Değişken Tanımlama
 
-To declare more than one variable of the same type, use a comma-separated list:
+Aynı türden birden fazla değişken bildirmek için virgülle ayrılmış bir liste kullanın:
 
-## Example
+## Örnek
 
 ```
 int a = 10, b = 15, c = 20
