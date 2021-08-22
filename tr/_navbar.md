@@ -1,4 +1,5 @@
-- Translations
-  - [:iran: Persian](/fa/)
-  - [:uk: English](/)
-  - [Add translation](contributing-doc-site?id=translations)
+- Çeviriler
+  - [:iran: Farsça](/fa/)
+  - [:uk: İngilizce](/)
+  - [:tr: Türkçe](/)
+  - [Çeviri ekle](contributing-doc-site?id=translations)
