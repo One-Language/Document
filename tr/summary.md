@@ -1,91 +1,98 @@
-# Summary
+# Özet
 
-## Why do you need to use programming languages?
+## Neden programlama dilleri kullanmalısınız?
 
-In our world, almost everything is being done with or by computers, everyone knows that. But, what everyone doesn't know is that everyone can use programming languages. You don't have to be a cool Holywood hacker or an 250 IQ IT guy. Computers (software) can help you whoever you are. If you are a designer, you would love to have a software that tells you what keywords you can use, wouldn't you? Or let's assume that you are a translator. You are living with the fear of being unemployed due to computers and translation AIs. Why are you waiting for them to steal your job? Use them to improve your job.
+Dünyamızda hemen hemen her şey bilgisayarlarla veya bilgisayarlar tarafından yapılıyor, bunu herkes biliyor.  Ancak herkesin bilmediği şey, herkesin programlama dillerini kullanabileceğidir.  Havalı bir Holywood hackerı veya 250 IQ bilişim adamı olmanıza gerek yok.  Bilgisayarlar (yazılım) kim olursanız olun size yardımcı olabilir.  Bir tasarımcıysanız, hangi anahtar kelimeleri kullanabileceğinizi söyleyen bir yazılıma sahip olmayı çok isterdiniz, değil mi?  Ya da bir çevirmen olduğunuzu varsayalım.  Bilgisayarlar ve çeviri yapay zekaları nedeniyle işsiz kalma korkusuyla yaşıyorsunuz.  Neden işini çalmalarını bekliyorsun?  İşinizi geliştirmek için bunları kullanın.
 
-## Why should you learn them?
+## Neden bunları öğrenmelisiniz?
 
-I believe we have agreed that we will not let the computers have our jobs but we will use them for us. So, how are we going to do that? Are we going to spend hundreds of dollars for every software and script we need? Are we going to hire a programmer for ourselves? No, you should learn how to write and use programs yourself.
+Bilgisayarların işlerimizi almasına izin vermeyeceğimiz, ancak onları bizim için kullanacağımız konusunda anlaştığımıza inanıyorum.  Peki, bunu nasıl yapacağız?  İhtiyacımız olan her yazılım ve komut dosyası için yüzlerce dolar harcayacak mıyız?  Kendimize bir programcı mı tutacağız?  Hayır, programları nasıl yazacağınızı ve kullanacağınızı kendiniz öğrenmelisiniz.
 
-Don't be afraid, it is not hard. It's actually piece of cake. Also, you have an aim to reach. This will make things even easier for you. Who knows, you can be a programmer yourself one day. Just start now, and the rest will come.
+Korkma, zor değil.  Aslında çocuk oyuncağı.  Ayrıca, ulaşmak için bir hedefiniz var.  Bu, işleri sizin için daha da kolaylaştıracaktır.  Kim bilir, bir gün sen de programcı olabilirsin.  Şimdi başla, gerisi gelecektir.
 
-## Where to start?
+## Nereden başlamalıyım?
 
-Alright. You learned what programming languages are and why should you learn them. But there are about 700 programming languages out there and no one would learn all of them to use them not to lose their jobs or to get support from them.
+Peki.  Programlama dillerinin ne olduğunu ve neden öğrenmeniz gerektiğini öğrendiniz.  Ancak piyasada yaklaşık 700 programlama dili var ve kimse işini kaybetmemek veya onlardan yardım almak için hepsini kullanmayı öğrenemez.
 
-So, what these people who can use programming languages do? They learn to use the one that they will use most and the one from which they will benefit. If you want to deal with statics and data, you should learn Python or if you want to create executable programs, you should learn C, etc.
+Peki, programlama dillerini kullanabilen bu insanlar ne yapıyor?  En çok kullanacaklarını ve yararlanacakları dili kullanmayı öğrenirler.  Sabit ve veri bilimi ile uğraşmak istiyorsanız Python öğrenmeli veya çalıştırılabilir programlar oluşturmak istiyorsanız C vb. dilleri öğrenmelisiniz.
 
-**BUT WE HAVE A GAME CHANGER HERE: THE ONE.**
+**AMA BURADA BİR OYUN DEĞİŞTİRİCİ VAR: ONE.**
 
-For all of your purposes, whether it is creating a website or writing an executable program, you should learn **One**.
+İster bir web sitesi oluşturmak, ister çalıştırılabilir bir program yazmak olsun, tüm amaçlarınız için **One** öğrenmelisiniz.
 
-## What is One?
+## One nedir?
 
-One is an open source, self-hosted, bootstrapping programming language. It is being developed by [Max](github.com/BaseMax), [John](github.comjbampton) and our contibutors.
+One açık kaynaklı, kendi kendine barındırılan, önyükleme yapan bir programlama dilidir. [Max](github.com/BaseMax), [John](github.comjbampton) ve katkıcılarımızla birlikte geliştirilmeye başlandı.
 
-It's name is One because the aim of the language is providing users a single programming language to learn and use for every kind of problem they need to solve.
+Adı One'dır (Tek) çünkü dilin amacı, kullanıcılara çözmeleri gereken her türlü problem için öğrenmeleri ve kullanmaları için tek bir programlama dili sağlamaktır.
 
-## Getting started with One
+## One'ı kullanmaya başlama
 
-One sounded to you as a dream and you are interested in it but you don't know where to start. You start here by reading this **Getting started with One** guide.
+One size bir rüya gibi geldi ve ilginizi çekti ama nereden başlayacağınızı bilmiyorsunuz. Bu **One ile Başlarken** kılavuzunu okuyarak buradan başlayabilirsiniz.
 
 <!--
 We should add a section here about installing One
 -->
 
-### What programming languages do?
+### Programlama dilleri ne yapar?
 
-Imagine there are three people: a French, an English and a translator. The French guy doesn't speak English and the English guy doesn't speak French. The English guy has to do something but he doesn't know what is his mission. His mission should be told him by the French guy but he can't speak English. So, they need a translator to understand each other.
+Üç kişi olduğunu hayal edin: Fransızca, İngilizce ve çevirmen.  Fransız adam İngilizce bilmiyor ve İngiliz adam Fransızca bilmiyor.  İngiliz adamın bir şeyler yapması gerekiyor ama görevinin ne olduğunu bilmiyor.  Görevi ona Fransız adam tarafından söylenmeli ama İngilizce konuşamıyor.  Yani birbirlerini anlamak için bir tercümana ihtiyaçları var.
 
-A programming language is like an translator who translates everything you say into the computer's language. So that, computer can understand you and follow your orders. As it is a language, it has it's own grammar rules and we call it "the syntax".
+Bir programlama dili, söylediğiniz her şeyi bilgisayarın diline çeviren bir çevirmen gibidir.  Böylece bilgisayar sizi anlayabilir ve emirlerinizi yerine getirebilir.  Bir dil olduğu için kendine has gramer kuralları vardır ve biz ona "sözdizimi" (syntax) diyoruz.
+
 
 <!--
 ### The Syntax of One
 the syntax part should be added here
+
+### One'nin Sözdizimi
+sözdizimi parçası buraya eklenmelidir
 -->
 
-### What is input and output?
+### Girdi ve çıktı nedir (Input Output)?
 
-Computers can hear and speak too. That's how they are communicating with us. Of course, we don't speak about your microphone and webcam. Then how are they communicating with us? With inputs and outputs.
+Bilgisayarlar da duyabilir ve konuşabilir.  Bizimle bu şekilde iletişim kuruyorlar.  Elbette mikrofonunuz ve web kameranız hakkında konuşmuyoruz.  O zaman bizimle nasıl iletişim kuruyorlar?  Girdiler ve çıktılar ile.
 
-Input is everything you do to make computers do something. For example, pressing a key on keyboard is an input or clicking with your mouse is an input.
+Girdi, bilgisayarların bir şeyler yapmasını sağlamak için yaptığınız her şeydir.  Örneğin, klavyede bir tuşa basmak bir girdidir veya farenizle tıklamak bir girdidir.
 
-Output is the reaction that your computer give. When you click on a file on your desktop you give the computer an input and in return, computer gives you an output by opening that file.
+Çıktı, bilgisayarınızın verdiği tepkidir.  Masaüstünüzdeki bir dosyaya tıkladığınızda bilgisayara bir girdi verirsiniz ve karşılığında bilgisayar o dosyayı açarak size bir çıktı verir.
 
-This process is important to understand and understanding this process will make things lighter for you.
+Bu mantığı anlamak önemlidir ve bu sizin için işleri daha kolay hale getirecektir.
 
-### What are variables?
+### Değişkenler nedir?
 
-Variables are containers for storing values.
+Değişkenler, değerleri depolamak için kullanılan kutulardır.
 
-Do you remember the translator analogy? Every time a word is told in French, the translator keeps the word in his mind and returns it when necessary.
+Çevirmen benzetmesini hatırlıyor musunuz?  Fransızca bir kelime her söylendiğinde tercüman o kelimeyi aklında tutar ve gerektiğinde geri verir.
 
-In programming languages, we can create variables to store data and to use it when necessary.
+Programlama dillerinde verileri depolamak ve gerektiğinde kullanmak için değişkenler oluşturabiliriz.
 
 ```text
-hello = bonjour
-car = voiture
-love = amour
+merhaba = bonjour
+araba = voiture
+aşk = amour
 ```
 
-In the example above, `hello` is the name of the variable and `bonjour` is the value returned in it. We keep that information in mind because we believe we will need it in the future.
+Yukarıdaki örnekte, `merhaba` değişkenin adıdır ve `bonjour` içinden dönen (geri gelen) değerdir. Bu bilgiyi aklımızda tutuyoruz çünkü gelecekte buna ihtiyacımız olacağına inanıyoruz.
 
 <!--
 Assigning value to a variable section should be added here.
 Variable types section should be added here.
+
+Bir değişkene değer atama bölümü buraya eklenmelidir.
+Değişken türleri bölümü buraya eklenmelidir.
 -->
 
-### What are if/else conditions?
+### if / else (eğer / değilse) koşulları nedir?
 
-While we are talking with our computers, we may need to tell them some conditional cases. In such situations, we use if/else statements and give computers more than one case and more than one option.
+Bilgisayarlarımızla konuşurken bazı koşullu durumları onlara anlatmamız gerekebilir.  Bu gibi durumlarda if/else deyimlerini kullanırız ve bilgisayarlara birden fazla durum ve birden fazla seçenek veririz.
 
 ```python
 if hello = bonjour:
-    print("'Bonjour' means 'Hello' in French")
+    print("'Bonjour' Fransızcada 'Hello' demektir.")
 ```
 
-In the code above, the computer will print `"Bonjour" means "Hello" in French` as `hello = bonjour` but what if the condition wasn't fulfilled? Then, the computer wouldn't do anything because we didn't tell it to do. Let's give computer an else condition.
+Yukarıdaki kodda, bilgisayar  `hello = bonjour` eşit ise `"Bonjour" Fransızcada "Hello" demektir.` Ama ya koşul yerine getirilmezse? Yani eşit değilse, o zaman bilgisayar hiçbir şey yapmaz çünkü yapmasını söylemedik.  Bilgisayara başka bir koşul verelim.
 
 ```python
 if hello = merhaba:
@@ -94,18 +101,18 @@ else:
     print("I don't know the language you are speaking")
 ```
 
-So, we gave the computer an if condition, which will be executed if the condition is met, and an else condition, which will be executed if the condition is NOT met. If we run the program above and give computer a word other than in French and Turkish, the computer will say us:
-`"I don't know the language you are speaking"`
+Bu nedenle, bilgisayara koşul sağlanırsa yürütülecek bir if koşulu ve koşul karşılanmadığında yürütülecek olan bir else koşulu verdik.  Yukarıdaki programı çalıştırıp bilgisayara Fransızca ve Türkçe dışında bir kelime verirsek bilgisayar bize şunu söyleyecektir:
+`"I don't know the language you are speaking" (Hangi dili konuştuğunu bilmiyorum)`
 
-If/else statements are basically that. You will learn more about them in future but do not forget, this is a getting started guide.
+If/else ifadeleri temelde böyledir.  İleride bununla ilgili daha çok şey öğreneceksiniz ama unutmayın, bu bir başlangıç kılavuzudur.
 
-### What are the functions?
+### Fonksiyonlar nedir?
 
-Let's assume you are writing a program but you need to use a part of your program multiple times. It would be boring and tiring to write the same lines over and over again, right? If you agree with me, you may want to learn how to use functions.
+Diyelim ki bir program yazıyorsunuz ama programınızın bir bölümünü birden çok kez kullanmanız gerekiyor.  Aynı satırları tekrar tekrar yazmak sıkıcı ve yorucu olurdu değil mi?  Benimle aynı fikirdeyseniz, fonksiyonların nasıl kullanılacağını öğrenmek isteyebilirsiniz.
 
-Functions are basically a little piece of code that you use over and over again in your program. Instead of writing the same lines every time you need a feature that you've created, you can define a function and simply use it again and again. It's easier and quicker.
+Fonksiyonlar temelde programınızda tekrar tekrar kullandığınız küçük bir kod parçasıdır.  Oluşturduğunuz bir özelliğe her ihtiyaç duyduğunuzda aynı satırları yazmak yerine, bir fonksiyon tanımlayabilir ve tekrar tekrar kullanabilirsiniz.  Daha kolay ve daha hızlı.
 
-Let's remember our translator analogy.
+Çevirmen benzetmemizi hatırlayalım.
 
 ```python
 if hello = merhaba:
@@ -114,7 +121,7 @@ else:
     print("I don't know the language you are speaking")
 ```
 
-Instead of writing these lines with only changing them a little, you can define a function.
+Bu satırları biraz değiştirerek tekrar tekrar yazmak yerine bir fonksiyon tanımlayabilirsiniz.
 
 ```python
 def translator(word):
@@ -124,14 +131,15 @@ def translator(word):
         print("I don't know the word you said")
 ```
 
-Now, we have defined a function which takes `word` as input and checks if this word means `Hello`. If it does, it prints
+Şimdi, girdi olarak `word` alan ve bu kelimenin `Merhaba` anlamına gelip gelmediğini kontrol eden bir fonksiyon tanımladık.  Doğru ise, ekrana yazacağı şey:
+
 
 ```text
-word means 'Hello'.
+word means 'Hello'. (kelimenin anlamı 'Merhaba'.)
 ```
 
-if it doesn't, it prints:
+Yanlış ise, ekrana yazacağı şey:
 
 ```text
-I don't know the word you said.
+I don't know the word you said. (Söylediğin kelimeyi bilmiyorum.)
 ```
