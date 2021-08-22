@@ -1,31 +1,31 @@
-# Trying out the language
+# Dili denemek
 
-If you’d like to try One, you have a few options.
+One'ı denemek isterseniz, birkaç seçeneğiniz var.
 
-- In your browser. You can try One right here!
-- On your computer. The One CLI project is a downloadable executable to run scripts with access to file io and more. See the One CLI docs.
+- Tarayıcınızda.  One'ı burada deneyebilirsiniz!
+- Bilgisayarınızda.  One CLI projesi, io dosyasına ve daha fazlasına erişimi olan komut dosyalarını çalıştırmak için indirilebilir bir yürütülebilir dosyadır.  One CLI belgelerine bakın.
 
-Once you have somewhere to explore, it’s time to learn the language at [here](en/syntax).
+Keşfedecek bir yeriniz olduğunda, dili öğrenmenin zamanı geldi. [buradan](tr/syntax).
 
-## Trying Online in your browser
+## Tarayıcınızda Çevrimiçi Deneme
 
-We have an online compiler page, using this you can easily write a single-file program, run, see the output and share with your friends.
+Çevrimiçi bir derleyici sayfamız var, bunu kullanarak kolayca tek dosyalık bir program yazabilir, çalıştırabilir, çıktısını görebilir ve arkadaşlarınızla paylaşabilirsiniz.
 
-It's here:
+Burada:
 <https://run.onelang.org/>
 
-## Trying on your system
+## Sisteminizde deneme
 
-For this case, you first need to install One compiler, currently, You are able to compile the One compiler in Linux (both x86_64 and i386 architecture) and macOS, and BSD family, and finally Windows OS.
+Bu durumda, önce One derleyici yüklemeniz gerekir, şu anda One derleyicisini Linux'ta (hem x86_64 hem de i386 mimarisi) ve macOS ve BSD ailesinde ve son olarak Windows işletim sisteminde derleyebilirsiniz.
 
-For details of the method of installing and compiling One at your operating system, you can take a look at [Installing](en/installing) article.
+One'ı işletim sisteminize yükleme ve derleme yönteminin ayrıntıları için şu adrese göz atabilirsiniz: bk. [Kurulum](tr/installing) makalesi.
 
-## Contact team, and Bug report
+## İletişim ekibi ve Hata raporu
 
-If you run into bugs, or have ideas or questions, any of the following work:
+Hatalarla karşılaşırsanız veya fikirleriniz veya sorularınız varsa, aşağıdakilerden herhangi biri işe yarar:
 
-- Join the discord community.
-- Ask on the One mailing list (which is pretty quiet).
-- Tell us on twitter at @MaxProgram or [@OneLangTeam](https://twitter.com/OneLangTeam).
-- File a ticket at the [GitHub repo](https://github.com/One-Language/One).
+- Discord topluluğuna katılın.
+- One posta listesinde sor.
+- Bize Twitter'dan ulaş: @MaxProgram veya [@OneLangTeam](https://twitter.com/OneLangTeam).
+- Ticket atın: [GitHub repo](https://github.com/One-Language/One).
 - Pull requests are welcome.
