@@ -1,8 +1,8 @@
-# Operators
+# Operatörler
 
-An operator in One is a symbol that tells the compiler or interpreter to perform specific mathematical, relational or logical operation and produce final result.
+One'daki bir operatör, derleyiciye veya yorumlayıcıya belirli matematiksel, ilişkisel veya mantıksal işlemi gerçekleştirmesini ve nihai sonucu üretmesini söyleyen bir semboldür.
 
-# Example
+# Örnek
 
 ```
 int sum1 = 100 + 50;        // 150 (100 + 50)
@@ -10,15 +10,15 @@ int sum2 = sum1 + 250;      // 400 (150 + 250)
 int sum3 = sum2 + sum2;     // 800 (400 + 400)
 ```
 
-One divides the operators into the following groups:
+One operatörleri aşağıdaki gruplara ayırır:
 
-- Arithmetic operators
-- Assignment operators
-- Comparison operators
-- Logical operators
-- Bitwise operators
+- Aritmetik operatörler
+- Atama operatörleri
+- Karşılaştırma operatörleri
+- Mantıksal operatörler
+- Bitwise (Bitsel) operatörleri
 
-# Arithmetic operators
+# Aritmetik operatörler
 
 | Operator | Name           | Description                            | Example |
 | -------- | -------------- | -------------------------------------- | ------- |
@@ -30,7 +30,7 @@ One divides the operators into the following groups:
 | ++       | Increment      | Increases the value of a variable by 1 | ++x     |
 | --       | Decrement      | Decreases the value of a variable by 1 | --x     |
 
-# Assignment operators
+# Atama operatörleri
 
 | Operator | Example | Same As    |
 | -------- | ------- | ---------- |
@@ -45,7 +45,7 @@ One divides the operators into the following groups:
 | >>=      | x >>= 3 | x = x >> 3 |
 | <<=      | x <<= 3 | x = x << 3 |
 
-# Comparison operators
+# Karşılaştırma operatörleri
 
 | Operator | Name                     | Example |
 | -------- | ------------------------ | ------- |
@@ -56,7 +56,7 @@ One divides the operators into the following groups:
 | >=       | Greater than or equal to | x >= y  |
 | <=       | Less than or equal to    | x <= y  |
 
-# Logical operators
+# Mantıksal operatörler
 
 | Operator | Name        | Description                                             | Example            |
 | -------- | ----------- | ------------------------------------------------------- | ------------------ |
