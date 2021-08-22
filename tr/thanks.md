@@ -1,16 +1,16 @@
-# Thank you from the team
+# Ekipten teşekkürler
 
-## Credits
+## Jenerik
 
-- John Bampton ([@jbampton](https://github.com/jbampton)), Developer Relations Engineer, Team Leader
-- Max Base ([@BaseMax](https://github.com/BaseMax)), One Language Creator, GitHub Developer Maintainer, Software engineer
+- John Bampton ([@jbampton](https://github.com/jbampton)), Geliştirici İlişkileri Mühendisi, Takım Lideri
+- Max Base ([@BaseMax](https://github.com/BaseMax)), One Dili Oluşturucusu, GitHub Geliştirici Bakımcısı, Yazılım Mühendisi
 
-Copyright 2015 to the end of time ([MIT License](https://github.com/One-Language/One/blob/master/LICENSE))
+Telif hakkı 2015'den zamanın sonuna kadar ([MIT License](https://github.com/One-Language/One/blob/master/LICENSE))
 
-## Maintainers
+## Yazılım sorumluları 
 
 - [@NAME_OF_YOU](https://github.com/NAME_OF_YOU)
 
-## Contributors
+## Katkıda bulunanlar
 
-See the [list of contributors](https://github.com/One-Language/One/graphs/contributors) :pray: on GitHub
+bk. GitHub'da [katkıda bulunanlar listesi](https://github.com/One-Language/One/graphs/contributors) :pray:
