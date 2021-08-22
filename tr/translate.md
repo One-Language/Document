@@ -1,6 +1,6 @@
-# Translate
+# Çevir
 
-## Improvements
+## İyileştirmeler
 
 Here is a list of improvements we are looking at making to the documentation. If you wish to contribute, try something out here:
 
@@ -13,7 +13,7 @@ Here is a list of improvements we are looking at making to the documentation. If
 - improve "edit on GitHub" button/link
 - add One to awesome-docsify showcase
 
-## Setup Your Environment
+## Çalışma Ortamınızı Kurun
 
 We're using:
 
@@ -29,7 +29,7 @@ We are trying to **avoid polluting** the core repo with tooling for this documen
 npm i docsify-cli prettier -g
 ```
 
-## Serve the Site
+## Siteye Sunun
 
 From the root of this repo run:
 
@@ -45,13 +45,13 @@ From the root of this repo run:
 prettier --write "**/*.md"
 ```
 
-## Translations
+## Çeviriler
 
 It would be great to provide translations for other languages.
 
 Docsify makes adding new languages quite easy. Look in `docs/index.html` for commented out `zh-cn` examples.
 
-### Adding a new Translation
+### Yeni Çeviriler Ekleme
 
 1. create a folder in root for the new translation
 
