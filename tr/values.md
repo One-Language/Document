@@ -1,14 +1,14 @@
-# Values
+# Değerler (Values)
 
-Values are the built-in atomic object types that all other objects are composed of. They can be created through literals, expressions that evaluate to a value. All values are immutable—once created, they do not change. The number 3 is always the number 3. The string "frozen" can never have its character array modified in place.
+Değerler, diğer tüm nesnelerin oluşturduğu yerleşik atomik nesne türleridir.  Bir değer olarak değerlendirilen ifadeler, değişmez değerler aracılığıyla oluşturulabilirler.  Tüm değerler değişmezdir - bir kez oluşturulduktan sonra değişmezler.  3 sayısı her zaman 3 sayısıdır. "Dondurulmuş" dizesinin karakter dizisi hiçbir zaman yerinde değiştirilemez.
 
 ## Booleans
 
-A boolean value represents truth or falsehood. There are two boolean literals, true and false. Their class is Bool.
+Boole değeri, doğruyu veya yanlışı temsil eder.  Doğru ve yanlış olmak üzere iki boole değişmezi vardır.  Onların sınıfı Bool.
 
-## Numbers
+## Sayılar (Numbers)
 
-Like other scripting languages, Wren has a single numeric type: double-precision floating point. Number literals look like you expect coming from other languages:
+Diğer komut dosyası dilleri gibi, Wren'in de tek bir sayısal türü vardır: çift duyarlıklı kayan nokta.  Sayı değişmezleri, diğer dillerden gelmesini beklediğiniz gibi görünür:
 
 ```
 0
@@ -23,27 +23,27 @@ Like other scripting languages, Wren has a single numeric type: double-precision
 0xcaffe2
 ```
 
-## Strings
+## Dizeler (Strings)
 
-A string is an array of bytes. Typically, they store characters encoded in UTF-8, but you can put any byte values in there, even zero or invalid UTF-8 sequences. (You might have some trouble printing the latter to your terminal, though.)
+Bir dize, bir bayt dizisidir.  Tipik olarak, UTF-8'de kodlanmış karakterleri depolarlar, ancak sıfır veya geçersiz UTF-8 dizileri dahil olmak üzere herhangi bir bayt değerini oraya koyabilirsiniz.  (Yine de, ikincisini terminalinize yazdırırken biraz sorun yaşayabilirsiniz.)
 
-String literals are surrounded in double quotes:
-
-```
-"hi there"
-```
-
-They can also span multiple lines. When they do, the newline character within the string will always be \n (\r\n is normalized to \n).
+Dize değişmezleri çift tırnak içine alınır:
 
 ```
-"hi
-there,
-again"
+"herkese merhaba"
+```
+
+Ayrıca birden fazla satıra yayılabilirler.  Bunu yaptıklarında, dize içindeki yeni satır karakteri her zaman \n olacaktır (\r\n,\n'ye normalleştirilir).
+
+```
+"herkese
+tekrar,
+merhaba"
 ```
 
 ## Escaping
 
-A handful of escape characters are supported:
+Birkaç escaping karakteri desteklenir:
 
 ```
 "\0" // The NUL byte: 0.
