@@ -8,6 +8,7 @@
 - [Data Types](en/data-types)
 - [Operators](en/operators)
 - [Conditions](en/conditions)
+- [Switch](en/switch)
 - [Installing](en/installing)
 
 - **Contributing**
