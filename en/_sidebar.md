@@ -9,6 +9,8 @@
 - [Operators](en/operators)
 - [Conditions](en/conditions)
 - [Switch](en/switch)
+- [While Loop](en/while-loop)
+- [For Loop](en/for-loop)
 - [Installing](en/installing)
 
 - **Contributing**
