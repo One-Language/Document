@@ -2,7 +2,6 @@
 
 Önceki bölümde açıklandığı gibi, One'daki bir değişken belirli bir veri türü olmalıdır.
 
-
 İşte One'ın tüm veri türlerinin listesi:
 
 | İsim | Bitler | Veri ve Aralığı                                          | C dilindeki karşılığı  |
