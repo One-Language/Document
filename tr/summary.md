@@ -40,7 +40,6 @@ We should add a section here about installing One
 
 Bir programlama dili, söylediğiniz her şeyi bilgisayarın diline çeviren bir çevirmen gibidir.  Böylece bilgisayar sizi anlayabilir ve emirlerinizi yerine getirebilir.  Bir dil olduğu için kendine has gramer kuralları vardır ve biz ona "sözdizimi" (syntax) diyoruz.
 
-
 <!--
 ### The Syntax of One
 the syntax part should be added here
@@ -132,7 +131,6 @@ def translator(word):
 ```
 
 Şimdi, girdi olarak `word` alan ve bu kelimenin `Merhaba` anlamına gelip gelmediğini kontrol eden bir fonksiyon tanımladık.  Doğru ise, ekrana yazacağı şey:
-
 
 ```text
 word means 'Hello'. (kelimenin anlamı 'Merhaba'.)
