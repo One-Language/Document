@@ -2,7 +2,7 @@
 
 One'daki bir operatör, derleyiciye veya yorumlayıcıya belirli matematiksel, ilişkisel veya mantıksal işlemi gerçekleştirmesini ve nihai sonucu üretmesini söyleyen bir semboldür.
 
-# Örnek
+## Örnek
 
 ```
 int sum1 = 100 + 50;        // 150 (100 + 50)
@@ -18,7 +18,7 @@ One operatörleri aşağıdaki gruplara ayırır:
 - Mantıksal operatörler
 - Bitwise (Bitsel) operatörleri
 
-# Aritmetik operatörler
+## Aritmetik operatörler
 
 | Operator | Name           | Description                            | Example |
 | -------- | -------------- | -------------------------------------- | ------- |
@@ -30,7 +30,7 @@ One operatörleri aşağıdaki gruplara ayırır:
 | ++       | Increment      | Increases the value of a variable by 1 | ++x     |
 | --       | Decrement      | Decreases the value of a variable by 1 | --x     |
 
-# Atama operatörleri
+## Atama operatörleri
 
 | Operator | Example | Same As    |
 | -------- | ------- | ---------- |
@@ -45,7 +45,7 @@ One operatörleri aşağıdaki gruplara ayırır:
 | >>=      | x >>= 3 | x = x >> 3 |
 | <<=      | x <<= 3 | x = x << 3 |
 
-# Karşılaştırma operatörleri
+## Karşılaştırma operatörleri
 
 | Operator | Name                     | Example |
 | -------- | ------------------------ | ------- |
@@ -56,7 +56,7 @@ One operatörleri aşağıdaki gruplara ayırır:
 | >=       | Greater than or equal to | x >= y  |
 | <=       | Less than or equal to    | x <= y  |
 
-# Mantıksal operatörler
+## Mantıksal operatörler
 
 | Operator | Name        | Description                                             | Example            |
 | -------- | ----------- | ------------------------------------------------------- | ------------------ |
