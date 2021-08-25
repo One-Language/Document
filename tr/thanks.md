@@ -7,7 +7,7 @@
 
 Telif hakkı 2015'den zamanın sonuna kadar ([MIT License](https://github.com/One-Language/One/blob/master/LICENSE))
 
-## Yazılım sorumluları 
+## Yazılım sorumluları
 
 - [@NAME_OF_YOU](https://github.com/NAME_OF_YOU)
 
