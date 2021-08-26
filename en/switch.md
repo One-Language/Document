@@ -34,7 +34,7 @@ The expression is evaluated once and compared with the values of each case label
 | ------ | :---------------------------------------------------------------------------- |
 
 | :point_up: | By the way, the default clause inside the switch statement is optional. |
-| ------ | :---------------------------------------------------------------------- |
+| ---------- | :---------------------------------------------------------------------- |
 
 ## Example
 
