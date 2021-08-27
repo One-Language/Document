@@ -1,3 +1,0 @@
-# Contributing the document site
-
-....
