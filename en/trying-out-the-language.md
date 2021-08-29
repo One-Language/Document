@@ -16,7 +16,7 @@ It's here:
 
 ## Trying on your system
 
-For this case, you first need to install the One compiler. You are able to compile the One compiler in Linux (both x86_64 and i386 architecture) and macOS, the BSD family, and finally Windows OS.
+For this case, you first need to install the One compiler. You are able to compile the One compiler in Linux (both x86_64 and i386 architecture), macOS, the BSD family, and finally Windows OS.
 
 For details of each method of installing and compiling One at your operating system, you can take a look at [Installing](en/installing) article.
 
