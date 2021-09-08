@@ -1,14 +1,14 @@
 # Değerler (Values)
 
-Değerler, diğer tüm nesnelerin oluşturduğu yerleşik atomik nesne türleridir.  Bir değer olarak değerlendirilen ifadeler, değişmez değerler aracılığıyla oluşturulabilirler.  Tüm değerler değişmezdir - bir kez oluşturulduktan sonra değişmezler.  3 sayısı her zaman 3 sayısıdır. "Dondurulmuş" dizesinin karakter dizisi hiçbir zaman yerinde değiştirilemez.
+Değerler, diğer tüm nesnelerin oluşturduğu yerleşik atomik nesne türleridir. Bir değer olarak değerlendirilen ifadeler, değişmez değerler aracılığıyla oluşturulabilirler. Tüm değerler değişmezdir - bir kez oluşturulduktan sonra değişmezler. 3 sayısı her zaman 3 sayısıdır. "Dondurulmuş" dizesinin karakter dizisi hiçbir zaman yerinde değiştirilemez.
 
 ## Booleans
 
-Boole değeri, doğruyu veya yanlışı temsil eder.  Doğru ve yanlış olmak üzere iki boole değişmezi vardır.  Onların sınıfı Bool.
+Boole değeri, doğruyu veya yanlışı temsil eder. Doğru ve yanlış olmak üzere iki boole değişmezi vardır. Onların sınıfı Bool.
 
 ## Sayılar (Numbers)
 
-Diğer komut dosyası dilleri gibi, Wren'in de tek bir sayısal türü vardır: çift duyarlıklı kayan nokta.  Sayı değişmezleri, diğer dillerden gelmesini beklediğiniz gibi görünür:
+Diğer komut dosyası dilleri gibi, Wren'in de tek bir sayısal türü vardır: çift duyarlıklı kayan nokta. Sayı değişmezleri, diğer dillerden gelmesini beklediğiniz gibi görünür:
 
 ```
 0
@@ -25,7 +25,7 @@ Diğer komut dosyası dilleri gibi, Wren'in de tek bir sayısal türü vardır: 
 
 ## Dizeler (Strings)
 
-Bir dize, bir bayt dizisidir.  Tipik olarak, UTF-8'de kodlanmış karakterleri depolarlar, ancak sıfır veya geçersiz UTF-8 dizileri dahil olmak üzere herhangi bir bayt değerini oraya koyabilirsiniz.  (Yine de, ikincisini terminalinize yazdırırken biraz sorun yaşayabilirsiniz.)
+Bir dize, bir bayt dizisidir. Tipik olarak, UTF-8'de kodlanmış karakterleri depolarlar, ancak sıfır veya geçersiz UTF-8 dizileri dahil olmak üzere herhangi bir bayt değerini oraya koyabilirsiniz. (Yine de, ikincisini terminalinize yazdırırken biraz sorun yaşayabilirsiniz.)
 
 Dize değişmezleri çift tırnak içine alınır:
 
@@ -33,7 +33,7 @@ Dize değişmezleri çift tırnak içine alınır:
 "herkese merhaba"
 ```
 
-Ayrıca birden fazla satıra yayılabilirler.  Bunu yaptıklarında, dize içindeki yeni satır karakteri her zaman \n olacaktır (\r\n,\n'ye normalleştirilir).
+Ayrıca birden fazla satıra yayılabilirler. Bunu yaptıklarında, dize içindeki yeni satır karakteri her zaman \n olacaktır (\r\n,\n'ye normalleştirilir).
 
 ```
 "herkese

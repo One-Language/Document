@@ -2,8 +2,8 @@
 
 One'ı denemek isterseniz, birkaç seçeneğiniz var.
 
-- Tarayıcınızda.  One'ı burada deneyebilirsiniz!
-- Bilgisayarınızda.  One CLI projesi, io dosyasına ve daha fazlasına erişimi olan komut dosyalarını çalıştırmak için indirilebilir bir yürütülebilir dosyadır.  One CLI belgelerine bakın.
+- Tarayıcınızda. One'ı burada deneyebilirsiniz!
+- Bilgisayarınızda. One CLI projesi, io dosyasına ve daha fazlasına erişimi olan komut dosyalarını çalıştırmak için indirilebilir bir yürütülebilir dosyadır. One CLI belgelerine bakın.
 
 Keşfedecek bir yeriniz olduğunda, dili öğrenmenin zamanı geldi. [buradan](tr/syntax).
 
