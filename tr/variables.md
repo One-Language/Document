@@ -1,6 +1,6 @@
 # Değişkenler (Variables)
 
-Değişkenler, bir bilgisayar programında referans alınacak ve işlenecek bilgileri depolamak için kullanılır.  Ayrıca, verileri tanımlayıcı bir adla etiketlemenin bir yolunu sağlarlar, böylece programlarımız okuyucu ve kendimiz tarafından daha net anlaşılabilir.  Değişkenleri bilgi içeren kaplar olarak düşünmek yararlıdır.  Tek amaçları, verileri bellekte etiketlemek ve depolamaktır.  Bu veriler daha sonra programınız boyunca kullanılabilir.
+Değişkenler, bir bilgisayar programında referans alınacak ve işlenecek bilgileri depolamak için kullanılır. Ayrıca, verileri tanımlayıcı bir adla etiketlemenin bir yolunu sağlarlar, böylece programlarımız okuyucu ve kendimiz tarafından daha net anlaşılabilir. Değişkenleri bilgi içeren kaplar olarak düşünmek yararlıdır. Tek amaçları, verileri bellekte etiketlemek ve depolamaktır. Bu veriler daha sonra programınız boyunca kullanılabilir.
 
 ## Değişken Tanımlama (Oluşturma)
 
@@ -8,7 +8,7 @@ Değişkenler, bir bilgisayar programında referans alınacak ve işlenecek bilg
 <değişken türü> <değişken adı> = <değeri>;
 ```
 
-Burada tür, Bir'in türlerinden biridir (int veya String gibi) ve değişken, değişkenin adıdır (x veya ad gibi).  Değişkene değer atamak için eşittir işareti kullanılır.
+Burada tür, Bir'in türlerinden biridir (int veya String gibi) ve değişken, değişkenin adıdır (x veya ad gibi). Değişkene değer atamak için eşittir işareti kullanılır.
 
 ### Örnek
 
