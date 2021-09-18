@@ -20,7 +20,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/418747?v=4",
       "profile": "https://github.com/jbampton",
       "contributions": [
-        "projectManagement"
+        "projectManagement",
+        "doc"
       ]
     },
     {
@@ -78,6 +79,15 @@
       "profile": "https://discord.gg/sFCE2HcMCa",
       "contributions": [
         "review"
+      ]
+    },
+    {
+      "login": "Monicahinga",
+      "name": "Monicah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89571666?v=4",
+      "profile": "http://Nikah.com",
+      "contributions": [
+        "projectManagement"
       ]
     }
   ],
