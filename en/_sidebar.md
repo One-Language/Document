@@ -11,6 +11,7 @@
 - [Switch](en/switch)
 - [While Loop](en/while-loop)
 - [For Loop](en/for-loop)
+- [Break/Continue](en/break-continue)
 - [Installing](en/installing)
 
 - **Contributing**
