@@ -13,6 +13,7 @@
 - [For Loop](en/for-loop)
 - [Break/Continue](en/break-continue)
 - [Arrays](en/arrays)
+- [Pointers](en/pointers)
 - [Installing](en/installing)
 
 - **Contributing**
