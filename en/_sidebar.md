@@ -12,6 +12,7 @@
 - [While Loop](en/while-loop)
 - [For Loop](en/for-loop)
 - [Break/Continue](en/break-continue)
+- [Arrays](en/arrays)
 - [Installing](en/installing)
 
 - **Contributing**
