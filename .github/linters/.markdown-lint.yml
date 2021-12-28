@@ -22,6 +22,9 @@ MD029: false
 # MD033/no-inline-html Inline HTML
 MD033: false
 
+# MD037 - Spaces inside emphasis markers
+MD037: false
+
 # MD040 fenced-code-language - Fenced code blocks should have a language specified
 MD040: false
 
