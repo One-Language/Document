@@ -14,7 +14,7 @@ Don't be afraid, it is not hard. It's actually piece of cake. Also, you have an 
 
 Alright. You learned what programming languages are and why should you learn them. But there are about 700 programming languages out there and no one would learn all of them to use them not to lose their jobs or to get support from them.
 
-So, what these people who can use programming languages do? They learn to use the one that they will use most and the one from which they will benefit. If you want to deal with statics and data, you should learn Python or if you want to create executable programs, you should learn C, etc.
+So, what these people who can use programming languages do? They learn to use the one that they will use most and the one from which they will benefit. If you want to deal with statistics and data, you should learn Python or if you want to create executable programs, you should learn C, etc.
 
 **BUT WE HAVE A GAME CHANGER HERE: THE ONE.**
 
