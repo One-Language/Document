@@ -2,7 +2,7 @@
 
 One’s syntax is designed to be familiar to people coming from C-like languages while being a bit simpler and more streamlined.
 
-Scripts are stored in plain text files with a `.One` file extension. One does not compile ahead of time: programs are run directly from source, from top to bottom like a typical scripting language. (Internally, programs are compiled to bytecode for efficiency, but that’s an implementation detail.)
+Scripts are stored in plain text files with a `.one` file extension. One does not compile ahead of time: programs are run directly from source, from top to bottom like a typical scripting language. (Internally, programs are compiled to bytecode for efficiency, but that’s an implementation detail.)
 
 ## Comments
 
