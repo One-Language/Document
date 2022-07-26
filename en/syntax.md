@@ -31,12 +31,15 @@ Unlike C, block comments can nest in One:
 ```
 
 This is handy because it lets you easily comment out an entire block of code, even if the code already contains block comments.
-Reserved words #
+
+## Reserved words
 
 One way to get a quick feel for a language’s style is to see what words it reserves. Here’s what One has:
 
+```
 as break class construct continue else false for foreign if import
 in is null return static super this true var while
+```
 
 ## Identifiers
 
