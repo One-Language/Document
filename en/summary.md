@@ -119,7 +119,7 @@ Instead of writing these lines with only changing them a little, you can define 
 ```python
 def translator(word):
     if hello == word:
-        print(word + "means 'Hello'.")
+        print(word + " means 'Hello'.")
     else:
         print("I don't know the word you said")
 ```
