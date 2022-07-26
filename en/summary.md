@@ -22,9 +22,9 @@ For all of your purposes, whether it is creating a website or writing an executa
 
 ## What is One?
 
-One is an open source, self-hosted, bootstrapping programming language. It is being developed by [Max](https://github.com/BaseMax), [John](https://github.com/jbampton) and our contibutors.
+One is an open source, self-hosted, bootstrapping programming language. It is being developed by [Max](https://github.com/BaseMax), [John](https://github.com/jbampton) and our contributors.
 
-It's name is One because the aim of the language is providing users a single programming language to learn and use for every kind of problem they need to solve.
+Its name is One because the aim of the language is providing users a single programming language to learn and use for every kind of problem they need to solve.
 
 ## Getting started with One
 
