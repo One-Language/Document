@@ -89,7 +89,7 @@ In the code above, the computer will print `"Bonjour" means "Hello" in French` a
 
 ```python
 if hello == "merhaba":
-    print("'Merhaba' means 'Hello' in Turkish)
+    print("'Merhaba' means 'Hello' in Turkish")
 else:
     print("I don't know the language you are speaking")
 ```
