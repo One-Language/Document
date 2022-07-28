@@ -22,7 +22,7 @@ Peki, programlama dillerini kullanabilen bu insanlar ne yapıyor? En çok kullan
 
 ## One nedir?
 
-One açık kaynaklı, kendi kendine barındırılan, önyükleme yapan bir programlama dilidir. [Max](github.com/BaseMax), [John](github.comjbampton) ve katkıcılarımızla birlikte geliştirilmeye başlandı.
+One açık kaynaklı, kendi kendine barındırılan, önyükleme yapan bir programlama dilidir. [Max](https://github.com/BaseMax), [John](https://github.com/jbampton) ve katkıcılarımızla birlikte geliştirilmeye başlandı.
 
 Adı One'dır (Tek) çünkü dilin amacı, kullanıcılara çözmeleri gereken her türlü problem için öğrenmeleri ve kullanmaları için tek bir programlama dili sağlamaktır.
 
