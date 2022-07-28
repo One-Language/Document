@@ -67,9 +67,9 @@ Değişkenler, değerleri depolamak için kullanılan kutulardır.
 Programlama dillerinde verileri depolamak ve gerektiğinde kullanmak için değişkenler oluşturabiliriz.
 
 ```text
-merhaba = bonjour
-araba = voiture
-aşk = amour
+merhaba = "bonjour"
+araba = "voiture"
+aşk = "amour"
 ```
 
 Yukarıdaki örnekte, `merhaba` değişkenin adıdır ve `bonjour` içinden dönen (geri gelen) değerdir. Bu bilgiyi aklımızda tutuyoruz çünkü gelecekte buna ihtiyacımız olacağına inanıyoruz.
@@ -87,15 +87,15 @@ Değişken türleri bölümü buraya eklenmelidir.
 Bilgisayarlarımızla konuşurken bazı koşullu durumları onlara anlatmamız gerekebilir. Bu gibi durumlarda if/else deyimlerini kullanırız ve bilgisayarlara birden fazla durum ve birden fazla seçenek veririz.
 
 ```python
-if hello = bonjour:
+if hello == "bonjour":
     print("'Bonjour' Fransızcada 'Hello' demektir.")
 ```
 
 Yukarıdaki kodda, bilgisayar `hello = bonjour` eşit ise `"Bonjour" Fransızcada "Hello" demektir.` Ama ya koşul yerine getirilmezse? Yani eşit değilse, o zaman bilgisayar hiçbir şey yapmaz çünkü yapmasını söylemedik. Bilgisayara başka bir koşul verelim.
 
 ```python
-if hello = merhaba:
-    print("'Merhaba' means 'Hello' in Turkish)
+if hello == "merhaba":
+    print("'Merhaba' means 'Hello' in Turkish")
 else:
     print("I don't know the language you are speaking")
 ```
@@ -114,7 +114,7 @@ Fonksiyonlar temelde programınızda tekrar tekrar kullandığınız küçük bi
 Çevirmen benzetmemizi hatırlayalım.
 
 ```python
-if hello = merhaba:
+if hello == "merhaba":
     print("'Merhaba' means 'Hello' in Turkish")
 else:
     print("I don't know the language you are speaking")
@@ -124,8 +124,8 @@ Bu satırları biraz değiştirerek tekrar tekrar yazmak yerine bir fonksiyon ta
 
 ```python
 def translator(word):
-    if hello = word:
-        print(word + "means 'Hello'.)
+    if hello == word:
+        print(word + " means 'Hello'.")
     else:
         print("I don't know the word you said")
 ```
