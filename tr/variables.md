@@ -8,12 +8,12 @@ Değişkenler, bir bilgisayar programında referans alınacak ve işlenecek bilg
 <değişken türü> <değişken adı> = <değeri>;
 ```
 
-Burada tür, Bir'in türlerinden biridir (int veya String gibi) ve değişken, değişkenin adıdır (x veya ad gibi). Değişkene değer atamak için eşittir işareti kullanılır.
+Burada tür, Bir'in türlerinden biridir (int veya string gibi) ve değişken, değişkenin adıdır (x veya ad gibi). Değişkene değer atamak için eşittir işareti kullanılır.
 
 ### Örnek
 
 ```
-String metin = "One harika!"
+string metin = "One harika!"
 System.print(metin)
 ```
 
@@ -22,7 +22,7 @@ Mevcut bir değişkene yeni bir değer atarsanız, önceki değerin üzerine yaz
 ### Örnek
 
 ```
-String metin = "One güzel bir dil!"
+string metin = "One güzel bir dil!"
 metin = "One havalı :)"
 System.print(metin) // Çıktı şöyle olacaktır: One havalı :)
 ```
@@ -38,7 +38,7 @@ int number = 10;
 float floatNumber = 10.99f;
 char letter = 'O';
 boolean bool = true;
-String metin = "One harika!";
+string metin = "One harika!";
 ```
 
 ## Birden Fazla Değişken Tanımlama
