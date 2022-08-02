@@ -8,12 +8,12 @@ Variables are used to store information to be referenced and manipulated in a co
 type variable = value;
 ```
 
-Where type is one of One's types (such as int or String), and variable is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
+Where type is one of One's types (such as int or string), and variable is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
 
 ## Example
 
 ```
-String text = "One is awesome!"
+string text = "One is awesome!"
 System.print(text)
 ```
 
@@ -22,7 +22,7 @@ Note that if you assign a new value to an existing variable, it will overwrite t
 ## Example
 
 ```
-String text = "One is awesome!"
+string text = "One is awesome!"
 text = "One is cool :)"
 System.print(text) //the output will be: One is cool :)
 ```
@@ -38,7 +38,7 @@ int number = 10;
 float floatNumber = 10.99f;
 char letter = 'O';
 boolean bool = true;
-String text = "One is awesome!";
+string text = "One is awesome!";
 ```
 
 # Declare Many Variables
