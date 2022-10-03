@@ -1,5 +1,5 @@
 - Çeviriler
+  - [:uk: İngilizce](/en/)
   - [:iran: Farsça](/fa/)
-  - [:uk: İngilizce](/)
-  - [:tr: Türkçe](/)
+  - [:tr: Türkçe](/tr/)
   - [Çeviri ekle](contributing-doc-site?id=translations)
