@@ -1,5 +1,5 @@
 - Translations
-  - [:uk: English](/)
+  - [:uk: English](/en/)
   - [:iran: Persian](/fa/)
   - [:tr: Turkish](/tr/)
   - [Add translation](contributing-doc-site?id=translations)
