@@ -342,7 +342,7 @@ a = 15;
 Constants are used to store values that cannot be changed. We will use `const` keyword to declare a constant. Constant variables are used for storing values that will not change.
 
 It's a must and you must use it for variables that will not change. It will help you to avoid bugs.
-If you are tring to define a variable and you are not changing it in the following code, you must use `const` keyword. Otherwise, you will get an error.
+If you are tring to define a variable and you are not changing it in the next lines, you must use `const` keyword. Otherwise, you will get an error.
 
 #### Constant definition
 
@@ -388,7 +388,7 @@ Here is an example:
 
 ```c
 func add() {
-    ret 5 + 10;
+	ret 5 + 10;
 }
 ```
 
@@ -400,7 +400,7 @@ Here is an example:
 
 ```c
 func add(i32 a, i32 b) i32 {
-    ret a + b;
+	ret a + b;
 }
 ```
 
@@ -412,7 +412,7 @@ Here is an example:
 
 ```c
 func add() i32 {
-    ret 5 + 10;
+	ret 5 + 10;
 }
 ```
 
@@ -423,8 +423,8 @@ In the above example, we have defined a function called `add`. It returns an `i3
 Sometimes, you need to return multiple values from a function. In ONE, you can do that. Here is an example:
 
 ```c
-func add() (i32, i32) {
-    ret (5, 10);
+func add() i32, i32 {
+	ret 5, 10;
 }
 ```
 
@@ -472,7 +472,7 @@ Here is an example:
 
 ```c
 if (5 > 10) {
-    print("5 is greater than 10");
+	print("5 is greater than 10");
 }
 ```
 
@@ -484,9 +484,9 @@ Here is an example:
 
 ```c
 if (5 > 10) {
-    print("5 is greater than 10");
+	print("5 is greater than 10");
 } else {
-    print("5 is not greater than 10");
+	print("5 is not greater than 10");
 }
 ```
 
@@ -498,11 +498,11 @@ Here is an example:
 
 ```c
 if (5 > 10) {
-    print("5 is greater than 10");
+	print("5 is greater than 10");
 } else if (5 < 10) {
-    print("5 is less than 10");
+	print("5 is less than 10");
 } else {
-    print("5 is equal to 10");
+	print("5 is equal to 10");
 }
 ```
 
@@ -522,7 +522,7 @@ Here is an example:
 ```c
 i32 i = 0;
 while i < 10 {
-    i = i + 1;
+	i = i + 1;
 }
 ```
 
@@ -534,7 +534,7 @@ Here is an example:
 
 ```c
 for i32 i = 0; i < 10; i = i + 1 {
-    // ...
+	// ...
 }
 ```
 
