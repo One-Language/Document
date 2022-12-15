@@ -187,7 +187,7 @@ Logical operators are used to combine two or more conditions. Here are some of t
 | Token | Name | Description |
 | -------- | -------- | ----------------------- |
 | `&&` | Logical AND | Logical AND is an operator that checks if two conditions are true. |
-| `||` | Logical OR | Logical OR is an operator that checks if one of two conditions is true. |
+| `\|\|` | Logical OR | Logical OR is an operator that checks if one of two conditions is true. |
 | `!` | Logical NOT | Logical NOT is an operator that checks if a condition is false. |
 
 #### Bitwise operators
