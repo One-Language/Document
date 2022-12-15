@@ -99,23 +99,22 @@ Values are the data that is stored in variables. There are many types of values 
 
 ### Types
 
-Types are the data types of values. There are many types of types in ONE. Here are some of them:
+Types are used to define the data type of a value. There are many types in ONE. Here are some of them:
 
-| Token | Name | Description |
-| -------- | -------- | ----------------------- |
-| `bool` | Boolean | Bool is a type that represents a boolean value. It can be either `true` or `false`. |
-| `i8` | Integer 8-bit | Integer 8-bit is a type that represents an integer value. It can be any integer between `-128` and `127`. |
-| `i16` | Integer 16-bit | Integer 16-bit is a type that represents an integer value. It can be any integer between `-32768` and `32767`. |
-| `i32` | Integer 32-bit | Integer 32-bit is a type that represents an integer value. It can be any integer between `-2147483648` and `2147483647`. |
-| `i64` | Integer 64-bit | Integer 64-bit is a type that represents an integer value. It can be any integer between `-9223372036854775808` and `9223372036854775807`. |
-| `u8` | Unsigned integer 8-bit | Unsigned integer 8-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `255`. |
-| `u16` | Unsigned integer 16-bit | Unsigned integer 16-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `65535`. |
-| `u32` | Unsigned integer 32-bit | Unsigned integer 32-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `4294967295`. |
-| `u64` | Unsigned integer 64-bit | Unsigned integer 64-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `18446744073709551615`. |
-| `f32` | Float 32-bit | Float 32-bit is a type that represents a floating point value. It can be any floating point number between `1.175494351e-38` and `3.402823466e+38`. |
-| `f64` | Float 64-bit | Float 64-bit is a type that represents a floating point value. It can be any floating point number between `2.2250738585072014e-308` and `1.7976931348623157e+308`. |
-| `char` | Character | Character is a type that represents a character value. It can be any character between `0` and `65535`. Unicode characters are supported. |
-| `str` | String | String is a type that represents a string value. It can be any string of characters. |
+- `i8` - 8-bit signed integer
+- `i16` - 16-bit signed integer
+- `i32` - 32-bit signed integer
+- `i64` - 64-bit signed integer
+- `u8` - 8-bit unsigned integer
+- `u16` - 16-bit unsigned integer
+- `u32` - 32-bit unsigned integer
+- `u64` - 64-bit unsigned integer
+- `f32` - 32-bit floating point number
+- `f64` - 64-bit floating point number
+- `bool` - Boolean value
+- `char` - Character
+- `str` - String
+- `void` - Void
 
 ### Identifiers
 
@@ -262,22 +261,23 @@ We will see how to use meanful comments in the future. We will try to have one f
 
 ### Types
 
-Types are used to define the data type of a value. There are many types in ONE. Here are some of them:
+Types are the data types of values. There are many types of types in ONE. Here are some of them:
 
-- `i8` - 8-bit signed integer
-- `i16` - 16-bit signed integer
-- `i32` - 32-bit signed integer
-- `i64` - 64-bit signed integer
-- `u8` - 8-bit unsigned integer
-- `u16` - 16-bit unsigned integer
-- `u32` - 32-bit unsigned integer
-- `u64` - 64-bit unsigned integer
-- `f32` - 32-bit floating point number
-- `f64` - 64-bit floating point number
-- `bool` - Boolean value
-- `char` - Character
-- `str` - String
-- `void` - Void
+| Token | Name | Description |
+| -------- | -------- | ----------------------- |
+| `bool` | Boolean | Bool is a type that represents a boolean value. It can be either `true` or `false`. |
+| `i8` | Integer 8-bit | Integer 8-bit is a type that represents an integer value. It can be any integer between `-128` and `127`. |
+| `i16` | Integer 16-bit | Integer 16-bit is a type that represents an integer value. It can be any integer between `-32768` and `32767`. |
+| `i32` | Integer 32-bit | Integer 32-bit is a type that represents an integer value. It can be any integer between `-2147483648` and `2147483647`. |
+| `i64` | Integer 64-bit | Integer 64-bit is a type that represents an integer value. It can be any integer between `-9223372036854775808` and `9223372036854775807`. |
+| `u8` | Unsigned integer 8-bit | Unsigned integer 8-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `255`. |
+| `u16` | Unsigned integer 16-bit | Unsigned integer 16-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `65535`. |
+| `u32` | Unsigned integer 32-bit | Unsigned integer 32-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `4294967295`. |
+| `u64` | Unsigned integer 64-bit | Unsigned integer 64-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `18446744073709551615`. |
+| `f32` | Float 32-bit | Float 32-bit is a type that represents a floating point value. It can be any floating point number between `1.175494351e-38` and `3.402823466e+38`. |
+| `f64` | Float 64-bit | Float 64-bit is a type that represents a floating point value. It can be any floating point number between `2.2250738585072014e-308` and `1.7976931348623157e+308`. |
+| `char` | Character | Character is a type that represents a character value. It can be any character between `0` and `65535`. Unicode characters are supported. |
+| `str` | String | String is a type that represents a string value. It can be any string of characters. |
 
 #### Type casting
 
