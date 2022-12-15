@@ -23,5 +23,60 @@ ONE is a general-purpose programming language that is designed to be easy to lea
 
 There are also many other features that are not listed here.
 
+
+## Usability space
+
+You can use ONE to create console applications, web applications, and more. You can also use ONE to create libraries and frameworks.
+
+- Console applications
+- Web applications
+- Libraries
+- And more...
+
+We are trying to make ONE a great language for any project. But we are aware we cannot make it perfect for all projects. So we focused on a few fields that we think ONE is perfect for.
+
 ## Installation
+
+It is recommended to install ONE using the official installer. You can download the installer from the [official website](https://onelang.org).
+
+### Building from source
+
+If you want to build ONE from source, you can follow the instructions below.
+
+#### Prerequisites
+
+- [Git](https://git-scm.com/downloads)
+- [GNU GCC](https://gcc.gnu.org/install/)
+- [GNU Make](https://www.gnu.org/software/make/)
+
+#### Building
+
+```bash
+git clone https://github.com/One-Language/ONE
+cd ONE
+make
+make install
+```
+
+Note: You may need to run `sudo make install` if you are on Linux or macOS and you are not logged in as root.
+
+## Syntax
+
+TODO
+
+## Contributing
+
+We are always looking for contributors to help us make ONE better. If you are interested in contributing to ONE, please read our [contributing guide](contributing guide.md).
+
+## License
+
+ONE is licensed under the [MIT license](LICENSE).
+
+## Contact
+
+You can contact us via [email](mailto:max@onelang.org) or [Discord](https://discord.gg/xxxxxxxx).
+
+## Credits
+
+All rights reserved to ONE Language Foundation.
 
