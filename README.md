@@ -632,4 +632,3 @@ You can contact us via [email](mailto:max@onelang.org) or [Discord](https://disc
 ## Credits
 
 All rights reserved to ONE Language Foundation.
-
