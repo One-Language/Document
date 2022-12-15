@@ -523,6 +523,8 @@ Loops are used to execute a block of code multiple times. Here are some of them:
 
 #### While loop
 
+While loop is used to execute a block of code multiple times. It checks a condition before executing the code. If the condition is true, it executes the code. If the condition is false, it stops the loop.
+
 Here is an example:
 
 ```c
@@ -536,6 +538,8 @@ In the above example, we have used `while` loop. It checks if `i` is less than `
 
 #### For loop
 
+For loop is used when we know how many times we want to execute a block of code. You can use `for` loop instead of `while` loop if you know how many times you want to execute a block of code.
+
 Here is an example:
 
 ```c
@@ -544,7 +548,29 @@ for i32 i = 0; i < 10; i = i + 1 {
 }
 ```
 
-The above example is a `for` loop. It's similar to `while` loop. It checks if `i` is less than `10`. If it's true, it adds `1` to `i`. If it's false, it stops the loop.
+#### Repeat loop
+
+Repeat loop is used when we are going to repeat a block of code multiple times. It's easier for you to use `repeat` loop instead of `for` loop.
+
+Here is an example:
+
+```c
+repeat 10 {
+	// ...
+}
+```
+
+The above example is a `repeat` loop. It's similar to `for` loop. It checks if `i` is less than `10`. If it's true, it adds `1` to `i`. If it's false, it stops the loop.
+
+After repeat token you must write a number. It's the number of times you want to repeat the block of code. Any other type of value is not allowed after repeat token.
+
+For example the following code is not allowed:
+
+```c
+repeat "Hello World" {
+	// ...
+}
+```
 
 ### Arrays
 
