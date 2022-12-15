@@ -112,8 +112,10 @@ Keywords are reserved words in ONE. They have a special meaning and cannot be us
 
 Values are the data that is stored in variables. There are many types of values in ONE. Here are some of them:
 
-| -------- | -------- |
-| `true` | `false` |
+| Token | Name | Description |
+| -------- | -------- | ------------- |
+| `true` | True boolean value | True is a value that represents a true boolean value. |
+| `false` | False boolean value | False is a value that represents a false boolean value. |
 
 ### Types
 
@@ -134,6 +136,97 @@ Types are the data types of values. There are many types of types in ONE. Here a
 | `f64` | Float 64-bit | Float 64-bit is a type that represents a floating point value. It can be any floating point number between `2.2250738585072014e-308` and `1.7976931348623157e+308`. |
 | `char` | Character | Character is a type that represents a character value. It can be any character between `0` and `65535`. Unicode characters are supported. |
 | `string` | String | String is a type that represents a string value. It can be any string of characters. |
+
+### Identifiers
+
+Identifiers are the names of variables, functions, classes, etc. They can be any combination of letters, numbers, and underscores. They cannot start with a number. They cannot be a keyword. Here are some examples of identifiers:
+
+| Token | Name | Description |
+| -------- | -------- | ----------------------- |
+
+To be completed...
+
+
+### Operators
+
+Operators are special symbols that perform operations on values. There are many types of operators in ONE. Here are some of them.
+
+There are many types of operators in ONE. Here are some of them:
+
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Logical operators
+- Bitwise operators
+- Increment and decrement operators
+- Ternary operator
+
+#### Arithmetic operators
+
+Arithmetic operators are used to perform arithmetic operations on values. Here are some of them:
+
+| Token | Name | Description |
+| -------- | -------- | ----------------------- |
+| `+` | Addition | Addition is an operator that adds two values. |
+| `-` | Subtraction | Subtraction is an operator that subtracts two values. |
+| `*` | Multiplication | Multiplication is an operator that multiplies two values. |
+| `/` | Division | Division is an operator that divides two values. |
+| `%` | Modulus | Modulus is an operator that returns the remainder of two values. |
+| `^` | Exponentiation | Exponentiation is an operator that raises a value to the power of another value. |
+
+#### Assignment operators
+
+Assignment operators are used to assign values to variables. Here are some of them
+
+| Token | Name | Description |
+| -------- | -------- | ----------------------- |
+| `=` | Assignment | Assignment is an operator that assigns a value to a variable. |
+| `+=` | Addition assignment | Addition assignment is an operator that adds a value to a variable and assigns the result to the variable. |
+| `-=` | Subtraction assignment | Subtraction assignment is an operator that subtracts a value from a variable and assigns the result to the variable. |
+| `*=` | Multiplication assignment | Multiplication assignment is an operator that multiplies a value with a variable and assigns the result to the variable. |
+| `/=` | Division assignment | Division assignment is an operator that divides a variable by a value and assigns the result to the variable. |
+| `%=` | Modulus assignment | Modulus assignment is an operator that returns the remainder of a variable divided by a value and assigns the result to the variable. |
+
+
+#### Comparison operators
+
+Comparison operators are used to compare two values. Here are some of them:
+
+| Token | Name | Description |
+| -------- | -------- | ----------------------- |
+| `==` | Equal to | Equal to is an operator that checks if two values are equal. |
+| `!=` | Not equal to | Not equal to is an operator that checks if two values are not equal. |
+| `>` | Greater than | Greater than is an operator that checks if a value is greater than another value. |
+| `<` | Less than | Less than is an operator that checks if a value is less than another value. |
+| `>=` | Greater than or equal to | Greater than or equal to is an operator that checks if a value is greater than or equal to another value. |
+| `<=` | Less than or equal to | Less than or equal to is an operator that checks if a value is less than or equal to another value. |
+
+#### Logical operators
+
+Logical operators are used to combine two or more conditions. Here are some of them
+
+| Token | Name | Description |
+| -------- | -------- | ----------------------- |
+| `&&` | Logical AND | Logical AND is an operator that checks if two conditions are true. |
+| `||` | Logical OR | Logical OR is an operator that checks if one of two conditions is true. |
+| `!` | Logical NOT | Logical NOT is an operator that checks if a condition is false. |
+
+#### Bitwise operators
+
+Bitwise operators are used to perform bitwise operations on values. Here are some of them:
+
+| Token | Name | Description |
+| -------- | -------- | ----------------------- |
+| `&` | Bitwise AND | Bitwise AND is an operator that performs a bitwise AND operation on two values. |
+| `|` | Bitwise OR | Bitwise OR is an operator that performs a bitwise OR operation on two values. |
+| `^` | Bitwise XOR | Bitwise XOR is an operator that performs a bitwise XOR operation on two values. |
+| `~` | Bitwise NOT | Bitwise NOT is an operator that performs a bitwise NOT operation on a value. |
+| `<<` | Bitwise left shift | Bitwise left shift is an operator that performs a bitwise left shift operation on a value. |
+| `>>` | Bitwise right shift | Bitwise right shift is an operator that performs a bitwise right shift operation on a value. |
+
+#### Increment and decrement operators
+
+
 
 ## Contributing
 
