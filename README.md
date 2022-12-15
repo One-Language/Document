@@ -85,8 +85,7 @@ Keywords are reserved words in ONE. They have a special meaning and cannot be us
 | `interface` | `try` | `catch` | `throw` |
 | `finally` | `defer` | `async` | `await` |
 | `func` | `struct` | `union` | `enum` |
-| `type` | `typeof` | `is` | `as` |
-| `const` | `delete` | | |
+| `type` | `delete` | `is` | `const` |
 
 ### Values
 
