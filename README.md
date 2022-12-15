@@ -375,7 +375,7 @@ a = 5; // Error
 
 Functions are used to perform a specific task. It's a must for developers to split their code into functions.
 
-You must split your algorithm or program into small pieces of functions. Each piece of code must have a specific task. You must use functions to do that.
+You must split your algorithm or program into small pieces of functions. Each piece of code must have a specific task.
 
 #### Function declaration
 
@@ -386,7 +386,7 @@ In ONE not need to declare a function. You can define a function without declari
 Here is an example:
 
 ```c
-func add( {
+func add() {
 	ret 5 + 10;
 }
 ```
@@ -434,10 +434,10 @@ In the above example, we have defined a function called `add`. It returns two `i
 Here is an example:
 
 ```c
-i32 a = add(5, 10);
+i32 res = sum(5, 10);
 ```
 
-In the above example, we have called the `add` function. It takes two parameters: `5` and `10`. It returns an `i32` value. Type of `a` is `i32`.
+In the above example, we have called the `sum` function. It takes two parameters: `5` and `10`. It returns an `i32` value. Type of `res` is `i32`.
 
 ##### Function call a function with multiple returns
 
@@ -566,7 +566,7 @@ After repeat token you must write a number. It's the number of times you want to
 For example the following code is not allowed:
 
 ```c
-repeat "Hello World" {
+repeat "Hello World" { // Error
 	// ...
 }
 ```
