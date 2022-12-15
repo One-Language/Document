@@ -115,7 +115,7 @@ Types are the data types of values. There are many types of types in ONE. Here a
 | `f32` | Float 32-bit | Float 32-bit is a type that represents a floating point value. It can be any floating point number between `1.175494351e-38` and `3.402823466e+38`. |
 | `f64` | Float 64-bit | Float 64-bit is a type that represents a floating point value. It can be any floating point number between `2.2250738585072014e-308` and `1.7976931348623157e+308`. |
 | `char` | Character | Character is a type that represents a character value. It can be any character between `0` and `65535`. Unicode characters are supported. |
-| `string` | String | String is a type that represents a string value. It can be any string of characters. |
+| `str` | String | String is a type that represents a string value. It can be any string of characters. |
 
 ### Identifiers
 
@@ -457,6 +457,134 @@ If type of both variables are the same, you can define them in one line. Here is
 ```c
 i32 a, b = add();
 ```
+
+### Conditionals
+
+Conditionals are used to perform different actions based on different conditions. Here are some of them:
+
+- `if`
+- `else if`
+- `else`
+
+#### If statement
+
+Here is an example:
+
+```c
+if (5 > 10) {
+    print("5 is greater than 10");
+}
+```
+
+In the above example, we have used `if` statement. It checks if `5` is greater than `10`. If it's true, it prints `5 is greater than 10`.
+
+#### If-else statement
+
+Here is an example:
+
+```c
+if (5 > 10) {
+    print("5 is greater than 10");
+} else {
+    print("5 is not greater than 10");
+}
+```
+
+In the above example, we have used `if-else` statement. It checks if `5` is greater than `10`. If it's true, it prints `5 is greater than 10`. If it's false, it prints `5 is not greater than 10`.
+
+#### If-else if-else statement
+
+Here is an example:
+
+```c
+if (5 > 10) {
+    print("5 is greater than 10");
+} else if (5 < 10) {
+    print("5 is less than 10");
+} else {
+    print("5 is equal to 10");
+}
+```
+
+In the above example, we have used `if-else if-else` statement. It checks if `5` is greater than `10`. If it's true, it prints `5 is greater than 10`. If it's false, it checks if `5` is less than `10`. If it's true, it prints `5 is less than 10`. If it's false, it prints `5 is equal to 10`.
+
+### Loops
+
+Loops are used to execute a block of code multiple times. Here are some of them:
+
+- `while`
+- `for`
+
+#### While loop
+
+Here is an example:
+
+```c
+i32 i = 0;
+while i < 10 {
+    i = i + 1;
+}
+```
+
+In the above example, we have used `while` loop. It checks if `i` is less than `10`. If it's true, it adds `1` to `i`. If it's false, it stops the loop.
+
+#### For loop
+
+Here is an example:
+
+```c
+for i32 i = 0; i < 10; i = i + 1 {
+    // ...
+}
+```
+
+The above example is a `for` loop. It's similar to `while` loop. It checks if `i` is less than `10`. If it's true, it adds `1` to `i`. If it's false, it stops the loop.
+
+### Arrays
+
+Arrays are used to store multiple values in a single variable. Here is an example:
+
+```c
+i32[] arr = [1, 2, 3, 4, 5];
+```
+
+In the above example, we have defined an array called `arr`. It's type is `i32[]`. It contains `5` values: `1`, `2`, `3`, `4` and `5`.
+
+#### Array length
+
+Here is an example:
+
+```c
+i32[] arr = [1, 2, 3, 4, 5];
+i32 len = arr.length;
+```
+
+In the above example, we have defined an array called `arr`. It's type is `i32[]`. It contains `5` values: `1`, `2`, `3`, `4` and `5`. We have defined a variable called `len`. It's type is `i32`. It's value is `5`.
+
+#### Array access
+
+Here is an example:
+
+```c
+i32[] arr = [1, 2, 3, 4, 5];
+i32 a = arr[0];
+i32 b = arr[1];
+i32 c = arr[2];
+i32 d = arr[3];
+i32 e = arr[4];
+```
+
+In the above example, we have defined an array called `arr`. It's type is `i32[]`. It contains `5` values: `1`, `2`, `3`, `4` and `5`. We have defined five variables called `a`, `b`, `c`, `d` and `e`. It's type is `i32`. It's value is `1`, `2`, `3`, `4` and `5` respectively.
+
+### Strings
+
+Strings are used to store text. Here is an example:
+
+```c
+str name = "John";
+```
+
+In the above example, we have defined a string called `name`. It's value is `John`.
 
 ## Contributing
 
