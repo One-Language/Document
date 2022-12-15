@@ -23,7 +23,6 @@ ONE is a general-purpose programming language that is designed to be easy to lea
 
 There are also many other features that are not listed here.
 
-
 ## Usability space
 
 You can use ONE to create console applications, web applications, and more. You can also use ONE to create libraries and frameworks.
@@ -81,32 +80,12 @@ Keywords are reserved words in ONE. They have a special meaning and cannot be us
 | `continue` | `break` | `if` | `else` |
 | `for` | `while` | `do` | `switch` |
 | `repeat` | `until` | `case` | `default` |
-| `and` | `break` | `continue` | `else` |
-| `false` | `for` | `if` | `in` |
-| `not` | `or` | `return` | `true` |
-| `while` | `import` | `as` | `class` |
-| `enum` | `interface` | `namespace` | `new` |
-| `public` | `private` | `protected` | `static` |
-| `this` | `try` | `catch` | `throw` |
+| `return` | `import` | `as` | `enum` |
+| `interface` | `try` | `catch` | `throw` |
 | `finally` | `defer` | `async` | `await` |
-| `using` | `var` | `const` | `let` |
 | `func` | `struct` | `union` | `enum` |
 | `type` | `typeof` | `is` | `as` |
-| `null` | `undefined` | `void` | `any` |
-| `bool` | `byte` | `char` | `int` |
-| `uint` | `long` | `ulong` | `float` |
-| `double` | `string` | `array` | `map` |
-| `set` | `tuple` | `object` | `enum` |
-| `interface` | `namespace` | `class` | `struct` |
-| `union` | `func` | `var` | `const` |
-| `let` | `public` | `private` | `protected` |
-| `static` | `this` | `super` | `new` |
-| `delete` | `typeof` | `is` | `as` |
-| `in` | `for` | `while` | `do` |
-| `if` | `else` | `switch` | `case` |
-| `default` | `break` | `continue` | `return` |
-| `throw` | `try` | `catch` | `finally` |
-| `defer` | `async` | `await` | `using` |
+| `const` | `delete` | | |
 
 ### Values
 
@@ -145,7 +124,6 @@ Identifiers are the names of variables, functions, classes, etc. They can be any
 | -------- | -------- | ----------------------- |
 
 To be completed...
-
 
 ### Operators
 
@@ -237,6 +215,7 @@ Increment and decrement operators are used to increment or decrement a value by 
 
 This proposal is still under discussion.
 
+## 
 ## Contributing
 
 We are always looking for contributors to help us make ONE better. If you are interested in contributing to ONE, please read our [contributing guide](contributing guide.md).
