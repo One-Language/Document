@@ -472,7 +472,7 @@ Here is an example:
 
 ```c
 if 5 > 10 {
-	print("5 is greater than 10");
+	// 5 is greater than 10
 }
 ```
 
@@ -484,9 +484,9 @@ Here is an example:
 
 ```c
 if 5 > 10 {
-	print("5 is greater than 10");
+	// 5 is greater than 10
 } else {
-	print("5 is not greater than 10");
+	// 5 is not greater than 10
 }
 ```
 
