@@ -76,12 +76,12 @@ Tokens are the smallest unit of a program. They are the building blocks of the l
 
 Keywords are reserved words in ONE. They have a special meaning and cannot be used as identifiers. Here is a list of keywords in ONE:
 
-| | | |
+| | | | |
 | ----------- | ------------ | ----------- | ----------- |
 | `continue` | `break` | `if` | `else` |
 | `for` | `while` | `do` | `switch` |
 | `repeat` | `until` | `case` | `default` |
-| `return` | `import` | `as` | `enum` |
+| `ret` | `import` | `as` | `enum` |
 | `interface` | `try` | `catch` | `throw` |
 | `finally` | `defer` | `async` | `await` |
 | `func` | `struct` | `union` | `enum` |
@@ -339,7 +339,14 @@ a = 15;
 
 ### Constants
 
-Constants are used to store values that cannot be changed. Here is an example:
+Constants are used to store values that cannot be changed. We will use `const` keyword to declare a constant. Constant variables are used for storing values that will not change.
+
+It's a must and you must use it for variables that will not change. It will help you to avoid bugs.
+If you are tring to define a variable and you are not changing it in the following code, you must use `const` keyword. Otherwise, you will get an error.
+
+#### Constant definition
+
+Here is an example:
 
 ```c
 const i32 a = 5;
@@ -347,7 +354,15 @@ const i32 a = 5;
 
 If you try to change the value of a constant, the compiler will throw an error.
 
-Note if you not initialize value for a constant, you will not able to do it later.
+```c
+const i32 a = 5;
+
+a = 10; // Error
+```
+
+#### Constant declaration
+
+If you not initialize value for a constant, you will not able to do it later.
 
 Here is an example:
 
@@ -357,8 +372,37 @@ const i32 a;
 a = 5; // Error
 ```
 
-#### Constant declaration
+### Functions
 
+Functions are used to perform a specific task. It's a must for developers to split their code into functions.
+
+You must split your algorithm or program into small pieces of functions. Each piece of code must have a specific task. You must use functions to do that.
+
+#### Function declaration
+
+In ONE not need to declare a function. You can define a function without declaring it and functions are automatically declared.
+
+#### Function definition
+
+Here is an example:
+
+```c
+func add(i32 a, i32 b) i32 {
+    ret a + b;
+}
+```
+
+In the above example, we have declared a function called `add`. It takes two parameters: `a` and `b`. It returns an `i32` value. Type of `a` and `b` is `i32`. Type of return value is `i32`.
+
+#### Function call
+
+Here is an example:
+
+```c
+i32 a = add(5, 10);
+```
+
+In the above example, we have called the `add` function. It takes two parameters: `5` and `10`. It returns an `i32` value. Type of `a` is `i32`.
 
 ## Contributing
 
