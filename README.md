@@ -238,6 +238,28 @@ This is a multi-line comment
 */
 ```
 
+### Meanful comments
+
+It's true that comments are ignored by the compiler. But they are not ignored by the programmer. Comments are used to explain code. But sometimes, comments are used to explain the meaning of a value. 
+
+In ONE we have a special type of comments called meanful comments. They are used to explain the meaning of a value. They start with `///` and end with a new line. Here is an example:
+
+```c
+/// This is a meanful comment
+```
+
+or multiple lines:
+
+```c
+/**
+* This is a meanful comment
+* This is a meanful comment
+* This is a meanful comment
+*/
+```
+
+We will see how to use meanful comments in the future. We will try to have one for each function and variable.
+
 ### Types
 
 Types are used to define the data type of a value. There are many types in ONE. Here are some of them:
@@ -323,7 +345,7 @@ Constants are used to store values that cannot be changed. Here is an example:
 const i32 a = 5;
 ```
 
-if you try to change the value of a constant, the compiler will throw an error.
+If you try to change the value of a constant, the compiler will throw an error.
 
 Note if you not initialize value for a constant, you will not able to do it later.
 
