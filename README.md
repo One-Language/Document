@@ -216,7 +216,128 @@ Increment and decrement operators are used to increment or decrement a value by 
 
 This proposal is still under discussion.
 
-## 
+### Comments
+
+Comments are used to explain code. They are ignored by the compiler. There are two types of comments in ONE: single-line comments and multi-line comments.
+
+#### Single-line comments
+
+Single-line comments are used to explain a single line of code. They start with `//` and end with a new line. Here is an example:
+
+```c
+// This is a single-line comment
+```
+
+#### Multi-line comments
+
+Multi-line comments are used to explain multiple lines of code. They start with `/*` and end with `*/`. Here is an example:
+
+```c
+/*
+This is a multi-line comment
+*/
+```
+
+### Types
+
+Types are used to define the data type of a value. There are many types in ONE. Here are some of them:
+
+- `i8` - 8-bit signed integer
+- `i16` - 16-bit signed integer
+- `i32` - 32-bit signed integer
+- `i64` - 64-bit signed integer
+- `u8` - 8-bit unsigned integer
+- `u16` - 16-bit unsigned integer
+- `u32` - 32-bit unsigned integer
+- `u64` - 64-bit unsigned integer
+- `f32` - 32-bit floating point number
+- `f64` - 64-bit floating point number
+- `bool` - Boolean value
+- `char` - Character
+- `string` - String
+- `void` - Void
+
+#### Type casting
+
+Type casting is used to convert a value from one type to another. Here is an example:
+
+```c
+i32 a = 5;
+f32 b = a as f32;
+```
+
+#### Type inference
+
+Type inference is used to automatically determine the type of a value. Here is an example:
+
+TODO
+
+### Variables
+
+Variables are used to store values. Here is an example:
+
+```c
+i32 a = 5;
+```
+
+#### Variable declaration
+
+Variable declaration is used to declare a variable. Here is an example:
+
+```c
+i32 a;
+```
+
+#### Variable initialization
+
+Variable initialization is used to initialize a variable. Here is an example:
+
+```c
+i32 a = 5;
+```
+
+#### Variable assignment
+
+Variable assignment is used to assign a value to a variable. Here is an example:
+
+```c
+i32 a = 5;
+a = 10;
+```
+
+#### Variable reassignment
+
+Variable reassignment is used to reassign a value to a variable. Here is an example:
+
+```c
+i32 a = 5;
+a = 10;
+a = 15;
+```
+
+### Constants
+
+Constants are used to store values that cannot be changed. Here is an example:
+
+```c
+const i32 a = 5;
+```
+
+if you try to change the value of a constant, the compiler will throw an error.
+
+Note if you not initialize value for a constant, you will not able to do it later.
+
+Here is an example:
+
+```c
+const i32 a;
+
+a = 5; // Error
+```
+
+#### Constant declaration
+
+
 ## Contributing
 
 We are always looking for contributors to help us make ONE better. If you are interested in contributing to ONE, please read our [contributing guide](contributing guide.md).
