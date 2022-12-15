@@ -276,7 +276,7 @@ Types are used to define the data type of a value. There are many types in ONE. 
 - `f64` - 64-bit floating point number
 - `bool` - Boolean value
 - `char` - Character
-- `string` - String
+- `str` - String
 - `void` - Void
 
 #### Type casting
