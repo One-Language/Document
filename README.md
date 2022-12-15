@@ -62,10 +62,12 @@ Note: You may need to run `sudo make install` if you are on Linux or macOS and y
 
 ## Syntax
 
-### Keywords
+### Tokens
 
 Tokens are the smallest unit of a program. They are the building blocks of the language. There are many types of tokens in ONE. Here are some of them:
 
+- Keywords
+- Values
 - Types
 - Identifiers
 - Operators
@@ -76,6 +78,9 @@ Tokens are the smallest unit of a program. They are the building blocks of the l
 Keywords are reserved words in ONE. They have a special meaning and cannot be used as identifiers. Here is a list of keywords in ONE:
 
 | ----------- | ------------ | ----------- | ----------- |
+| `continue` | `break` | `if` | `else` |
+| `for` | `while` | `do` | `switch` |
+| `repeat` | `until` | `case` | `default` |
 | `and` | `break` | `continue` | `else` |
 | `false` | `for` | `if` | `in` |
 | `not` | `or` | `return` | `true` |
@@ -102,6 +107,33 @@ Keywords are reserved words in ONE. They have a special meaning and cannot be us
 | `default` | `break` | `continue` | `return` |
 | `throw` | `try` | `catch` | `finally` |
 | `defer` | `async` | `await` | `using` |
+
+### Values
+
+Values are the data that is stored in variables. There are many types of values in ONE. Here are some of them:
+
+| -------- | -------- |
+| `true` | `false` |
+
+### Types
+
+Types are the data types of values. There are many types of types in ONE. Here are some of them:
+
+| Token | Name | Description |
+| -------- | -------- | ----------------------- |
+| `bool` | Boolean | Bool is a type that represents a boolean value. It can be either `true` or `false`. |
+| `i8` | Integer 8-bit | Integer 8-bit is a type that represents an integer value. It can be any integer between `-128` and `127`. |
+| `i16` | Integer 16-bit | Integer 16-bit is a type that represents an integer value. It can be any integer between `-32768` and `32767`. |
+| `i32` | Integer 32-bit | Integer 32-bit is a type that represents an integer value. It can be any integer between `-2147483648` and `2147483647`. |
+| `i64` | Integer 64-bit | Integer 64-bit is a type that represents an integer value. It can be any integer between `-9223372036854775808` and `9223372036854775807`. |
+| `u8` | Unsigned integer 8-bit | Unsigned integer 8-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `255`. |
+| `u16` | Unsigned integer 16-bit | Unsigned integer 16-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `65535`. |
+| `u32` | Unsigned integer 32-bit | Unsigned integer 32-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `4294967295`. |
+| `u64` | Unsigned integer 64-bit | Unsigned integer 64-bit is a type that represents an unsigned integer value. It can be any integer between `0` and `18446744073709551615`. |
+| `f32` | Float 32-bit | Float 32-bit is a type that represents a floating point value. It can be any floating point number between `1.175494351e-38` and `3.402823466e+38`. |
+| `f64` | Float 64-bit | Float 64-bit is a type that represents a floating point value. It can be any floating point number between `2.2250738585072014e-308` and `1.7976931348623157e+308`. |
+| `char` | Character | Character is a type that represents a character value. It can be any character between `0` and `65535`. Unicode characters are supported. |
+| `string` | String | String is a type that represents a string value. It can be any string of characters. |
 
 ## Contributing
 
