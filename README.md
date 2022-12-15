@@ -186,7 +186,7 @@ Assignment operators are used to assign values to variables. Here are some of th
 | `*=` | Multiplication assignment | Multiplication assignment is an operator that multiplies a value with a variable and assigns the result to the variable. |
 | `/=` | Division assignment | Division assignment is an operator that divides a variable by a value and assigns the result to the variable. |
 | `%=` | Modulus assignment | Modulus assignment is an operator that returns the remainder of a variable divided by a value and assigns the result to the variable. |
-
+| `^=` | Exponentiation assignment | Exponentiation assignment is an operator that raises a variable to the power of a value and assigns the result to the variable. |
 
 #### Comparison operators
 
@@ -226,7 +226,16 @@ Bitwise operators are used to perform bitwise operations on values. Here are som
 
 #### Increment and decrement operators
 
+Increment and decrement operators are used to increment or decrement a value by 1. Here are some of them:
 
+| Token | Name | Description |
+| -------- | -------- | ----------------------- |
+| `++` | Increment | Increment is an operator that increments a value by 1. |
+| `--` | Decrement | Decrement is an operator that decrements a value by 1. |
+
+#### Ternary operator
+
+This proposal is still under discussion.
 
 ## Contributing
 
