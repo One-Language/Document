@@ -62,7 +62,46 @@ Note: You may need to run `sudo make install` if you are on Linux or macOS and y
 
 ## Syntax
 
-TODO
+### Keywords
+
+Tokens are the smallest unit of a program. They are the building blocks of the language. There are many types of tokens in ONE. Here are some of them:
+
+- Types
+- Identifiers
+- Operators
+- Separators
+
+#### Keywords
+
+Keywords are reserved words in ONE. They have a special meaning and cannot be used as identifiers. Here is a list of keywords in ONE:
+
+| ----------- | ------------ | ----------- | ----------- |
+| `and` | `break` | `continue` | `else` |
+| `false` | `for` | `if` | `in` |
+| `not` | `or` | `return` | `true` |
+| `while` | `import` | `as` | `class` |
+| `enum` | `interface` | `namespace` | `new` |
+| `public` | `private` | `protected` | `static` |
+| `this` | `try` | `catch` | `throw` |
+| `finally` | `defer` | `async` | `await` |
+| `using` | `var` | `const` | `let` |
+| `func` | `struct` | `union` | `enum` |
+| `type` | `typeof` | `is` | `as` |
+| `null` | `undefined` | `void` | `any` |
+| `bool` | `byte` | `char` | `int` |
+| `uint` | `long` | `ulong` | `float` |
+| `double` | `string` | `array` | `map` |
+| `set` | `tuple` | `object` | `enum` |
+| `interface` | `namespace` | `class` | `struct` |
+| `union` | `func` | `var` | `const` |
+| `let` | `public` | `private` | `protected` |
+| `static` | `this` | `super` | `new` |
+| `delete` | `typeof` | `is` | `as` |
+| `in` | `for` | `while` | `do` |
+| `if` | `else` | `switch` | `case` |
+| `default` | `break` | `continue` | `return` |
+| `throw` | `try` | `catch` | `finally` |
+| `defer` | `async` | `await` | `using` |
 
 ## Contributing
 
