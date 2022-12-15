@@ -387,12 +387,48 @@ In ONE not need to declare a function. You can define a function without declari
 Here is an example:
 
 ```c
+func add() {
+    ret 5 + 10;
+}
+```
+
+In the above example, we have defined a function called `add`. It returns an `i32` value. It's clear that the return value is `15`.
+
+#### Function parameters
+
+Here is an example:
+
+```c
 func add(i32 a, i32 b) i32 {
     ret a + b;
 }
 ```
 
 In the above example, we have declared a function called `add`. It takes two parameters: `a` and `b`. It returns an `i32` value. Type of `a` and `b` is `i32`. Type of return value is `i32`.
+
+#### Function returns
+
+Here is an example:
+
+```c
+func add() i32 {
+    ret 5 + 10;
+}
+```
+
+In the above example, we have defined a function called `add`. It returns an `i32` value. It's clear that the return value is `15`.
+
+##### Function multiple returns
+
+Sometimes, you need to return multiple values from a function. In ONE, you can do that. Here is an example:
+
+```c
+func add() (i32, i32) {
+    ret (5, 10);
+}
+```
+
+In the above example, we have defined a function called `add`. It returns two `i32` values. It's clear that the return values are `5` and `10`.
 
 #### Function call
 
@@ -403,6 +439,24 @@ i32 a = add(5, 10);
 ```
 
 In the above example, we have called the `add` function. It takes two parameters: `5` and `10`. It returns an `i32` value. Type of `a` is `i32`.
+
+##### Function call a function with multiple returns
+
+Here is an example:
+
+```c
+i32 a, i32 b = add();
+```
+
+In the above example, we have called the `add` function. It returns two `i32` values. Type of `a` and `b` is `i32`.
+
+Since ONE is a statically typed language, you must define the type of each variable. You can't define a variable without defining its type.
+
+If type of both variables are the same, you can define them in one line. Here is an example:
+
+```c
+i32 a, b = add();
+```
 
 ## Contributing
 
