@@ -76,6 +76,7 @@ Tokens are the smallest unit of a program. They are the building blocks of the l
 
 Keywords are reserved words in ONE. They have a special meaning and cannot be used as identifiers. Here is a list of keywords in ONE:
 
+| | | |
 | ----------- | ------------ | ----------- | ----------- |
 | `continue` | `break` | `if` | `else` |
 | `for` | `while` | `do` | `switch` |
