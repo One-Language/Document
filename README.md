@@ -387,7 +387,7 @@ In ONE not need to declare a function. You can define a function without declari
 Here is an example:
 
 ```c
-func add() {
+func add( {
 	ret 5 + 10;
 }
 ```
@@ -471,7 +471,7 @@ Conditionals are used to perform different actions based on different conditions
 Here is an example:
 
 ```c
-if (5 > 10) {
+if 5 > 10 {
 	print("5 is greater than 10");
 }
 ```
@@ -483,7 +483,7 @@ In the above example, we have used `if` statement. It checks if `5` is greater t
 Here is an example:
 
 ```c
-if (5 > 10) {
+if 5 > 10 {
 	print("5 is greater than 10");
 } else {
 	print("5 is not greater than 10");
@@ -497,16 +497,22 @@ In the above example, we have used `if-else` statement. It checks if `5` is grea
 Here is an example:
 
 ```c
-if (5 > 10) {
-	print("5 is greater than 10");
-} else if (5 < 10) {
-	print("5 is less than 10");
-} else {
-	print("5 is equal to 10");
-}
+if 5 > 10 {}
+else if 5 < 10 {}
+else {}
 ```
 
 In the above example, we have used `if-else if-else` statement. It checks if `5` is greater than `10`. If it's true, it prints `5 is greater than 10`. If it's false, it checks if `5` is less than `10`. If it's true, it prints `5 is less than 10`. If it's false, it prints `5 is equal to 10`.
+
+It's a must to keep `else` and `else if` token in the same line of closing bracket of `if` statement. Otherwise, you will get an error.
+
+So we can't write the above example like this:
+
+```c
+if 5 > 10 {}
+else if 5 < 10 {}
+else {}
+```
 
 ### Loops
 
