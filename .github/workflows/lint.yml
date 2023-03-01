@@ -6,15 +6,6 @@ permissions: # added using https://github.com/step-security/secure-workflows
   contents: read
 
 jobs:
-  misspell:
-    name: Check Spelling Misspell All Files In Commit
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Install
-        run: wget -O - -q https://git.io/misspell | sh -s -- -b .
-      - name: Misspell
-        run: git ls-files --empty-directory | grep -v fa | xargs ./misspell -error
   pre-commit:
     name: Run pre-commit # https://pre-commit.com/
     runs-on: ubuntu-latest
