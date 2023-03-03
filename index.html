@@ -1,157 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>One Programming Language</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="One is an open-source system programming language that makes it easy to build reliable, efficient and performant software.">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <!-- site theme -->
-    <link rel="stylesheet" href="https://unpkg.com/docsify-themeable@0/dist/css/theme-simple.css" title="light">
-    <!-- prismjs theme -->
-    <!-- <link rel="stylesheet" href="//unpkg.com/prismjs@1.15.0/themes/prism.css"> -->
-    <!-- <link rel="stylesheet" href="//unpkg.com/prismjs@1.15.0/themes/prism-coy.css"> -->
-    <!-- <link rel="stylesheet" href="//unpkg.com/prism-themes/themes/prism-ghcolors.css"> -->
-    <!-- <link rel="stylesheet" href="//unpkg.com/prism-themes/themes/prism-atom-dark.css"> -->
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- edit on github plugin must appear here -->
-    <script src="scripts/docsify-edit-on-github.js"></script>
-    <script>
-      window.$docsify = {
-        name: "One Programming Language",
-        repo: "https://github.com/One-Language/One",
-        el: "#app",
-        onlyCover: true,
-        coverpage: true,
-        loadNavbar: true,
-        loadSidebar: true,
-        notFoundPage: true,
-        subMaxLevel: 2,
-        auto2top: true,
-        rtl: { // For Ar and FA languages!
-          body: "ltr",
-          side: "ltr",
-          bdo: "rtl"
-        },
-        alias: {
-          // ".*?/plugins-all":
-          //   "https://raw.githubusercontent.com/One-Language/One-plugins/main/README.md",
-          // ".*?/changelog":
-          //   "https://raw.githubusercontent.com/One-Language/One/main/CHANGELOG.md",
-        },
-        markdown: {
-          smartypants: true,
-        },
-        themeColor: "#deffc5",
-        formatUpdated: "{MM}/{DD} {HH}:{mm}",
-        select: {
-          detectOperatingSystem: {
-            enabled: true,
-            menuId: "operating-system",
-          },
-          sync: true,
-          theme: "classic",
-        },
-        tabs: {
-          theme: "material",
-        },
-        search: {
-          paths: "auto",
-          placeholder: {
-            "/": "Type to search",
-          },
-          noData: {
-            "/": "No Results",
-          },
-        },
-        plugins: [
-          EditOnGithubPlugin.create(
-            "https://github.com/One-Language/Document/blob/main/",
-            {
-              customURLs: {
-                // "https://raw.githubusercontent.com/One-Language/One-plugins/main/README.md":
-                // "https://github.com/One-Language/One-plugins/edit/main/README.md",
-                // "https://raw.githubusercontent.com/One-Language/One/main/CHANGELOG.md":
-                // "https://github.com/One-Language/One/edit/main/CHANGELOG.md",
-              },
-            }
-          ),
-        ],
-      };
-    </script>
-    <!-- docsify core -->
-    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-    <!-- docsify core plugins -->
-    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-    <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
-    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
-    <!-- 3rd party plugins -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify-select@1"></script>
-    <script src="//unpkg.com/docsify-themeable@0"></script>
-    <script src="//unpkg.com/docsify-copy-code@2"></script>
-    <script src="//unpkg.com/docsify-tabs@1"></script>
-    <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
-    <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
-    <!-- <script src="//unpkg.com/docsify-rtl/build/index.min.js"></script> -->
-    <style>
-      .app-nav ul li ul {
-        width: max-content;
-      }
 
-      body[data-page^="fa/"] {
-        direction: rtl !important;
-        text-align: right !important;
-        /*--sidebar-width:;*/
-      }
-      body[data-page^="fa/"] .sidebar {
-        transform: none !important;
-        right: 0px !important;
-      }
-      body[data-page^="fa/"].close .sidebar {
-        right: -300px !important;
-      }
-      body[data-page^="fa/"] code {
-        direction: ltr !important;
-      }
-      @media (min-width: 48em) {
-        body[data-page^="fa/"] .sidebar+.content {
-          margin-left: 0px !important;
-          margin-right: var(--sidebar-width) !important;
-        }
-      }
-      body[data-page^="fa/"] .app-nav {
-        left: 30px;
-      }
-      body[data-page^="fa/"] .sidebar-toggle {
-        transform: none !important;
-        right: var(--sidebar-width) !important;
-      }
-      body[data-page^="fa/"].close .sidebar-toggle {
-        transform: none !important;
-        right: 0px !important;
-      }
-      @media (min-width: 48em) {
-        nav.app-nav {
-          margin-left: 0px !important;
-          margin-right: var(--sidebar-width) !important;
-        }
-      }
-      :root {
-        /* Reduce the font size */
-        /* --base-font-size: 14px; */
+<head>
+  <meta charset="UTF-8">
+  <title>One Programming Language</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description"
+    content="One is an open-source system programming language that makes it easy to build reliable, efficient and performant software.">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- site theme -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-themeable@0/dist/css/theme-simple.css" title="light">
+  <!-- prismjs theme -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/prismjs@1.15.0/themes/prism.css"> -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/prismjs@1.15.0/themes/prism-coy.css"> -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/prism-themes/themes/prism-ghcolors.css"> -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/prism-themes/themes/prism-atom-dark.css"> -->
+</head>
 
-        /* Change the theme color hue */
-        --theme-color: #45c8e5;
+<body>
+  <div id="app"></div>
+  <!-- edit on github plugin must appear here -->
+  <script src="scripts/docsify-edit-on-github.js"></script>
+  <script>
+    window.$docsify = {
+      name: "One Programming Language",
+      repo: "https://github.com/One-Language/One",
+      el: "#app",
+      onlyCover: true,
+      coverpage: true,
+      loadNavbar: true,
+      loadSidebar: true,
+      notFoundPage: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      rtl: { // For Ar and FA languages!
+        body: "ltr",
+        side: "ltr",
+        bdo: "rtl"
+      },
+      alias: {
+        // ".*?/plugins-all":
+        //   "https://raw.githubusercontent.com/One-Language/One-plugins/main/README.md",
+        // ".*?/changelog":
+        //   "https://raw.githubusercontent.com/One-Language/One/main/CHANGELOG.md",
+      },
+      markdown: {
+        smartypants: true,
+      },
+      themeColor: "#deffc5",
+      formatUpdated: "{MM}/{DD} {HH}:{mm}",
+      select: {
+        detectOperatingSystem: {
+          enabled: true,
+          menuId: "operating-system",
+        },
+        sync: true,
+        theme: "classic",
+      },
+      tabs: {
+        theme: "material",
+      },
+      search: {
+        paths: "auto",
+        placeholder: {
+          "/": "Type to search",
+        },
+        noData: {
+          "/": "No Results",
+        },
+      },
+      plugins: [
+        EditOnGithubPlugin.create(
+          "https://github.com/One-Language/Document/blob/main/",
+          {
+            customURLs: {
+              // "https://raw.githubusercontent.com/One-Language/One-plugins/main/README.md":
+              // "https://github.com/One-Language/One-plugins/edit/main/README.md",
+              // "https://raw.githubusercontent.com/One-Language/One/main/CHANGELOG.md":
+              // "https://github.com/One-Language/One/edit/main/CHANGELOG.md",
+            },
+          }
+        ),
+      ],
+    };
+  </script>
+  <!-- docsify core -->
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- docsify core plugins -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 3rd party plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-select@1"></script>
+  <script src="//unpkg.com/docsify-themeable@0"></script>
+  <script src="//unpkg.com/docsify-copy-code@2"></script>
+  <script src="//unpkg.com/docsify-tabs@1"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+  <!-- <script src="//unpkg.com/docsify-rtl/build/index.min.js"></script> -->
+  <style>
+    .app-nav ul li ul {
+      width: max-content;
+    }
 
-        /* generate new cover bg color each load */
-        --cover-background-color: ;
-        /* leave cover page title black */
-        --cover-heading-color: ;
+    .sidebar-toggle-button {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #f1f1f1;
+      overflow-x: hidden;
+      padding-top: 60px;
+      transition: 0.5s;
+    }
 
-        /*--sidebar-nav-pagelink-background-position: 10 10;*/
+    .sidebar a {
+      padding: 6px 6px 6px 24px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      color: #f00707;
+    }
+
+    .sidebar-toggle-button .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    #main {
+      transition: margin-left .5s;
+      padding: 20px;
+    }
+
+    body[data-page^="fa/"] {
+      direction: rtl !important;
+      text-align: right !important;
+      /*--sidebar-width:;*/
+    }
+
+    body[data-page^="fa/"] .sidebar {
+      transform: none !important;
+      right: 0px !important;
+    }
+
+    body[data-page^="fa/"].close .sidebar {
+      right: -300px !important;
+    }
+
+    body[data-page^="fa/"] code {
+      direction: ltr !important;
+    }
+
+    @media (min-width: 48em) {
+      body[data-page^="fa/"] .sidebar+.content {
+        margin-left: 0px !important;
+        margin-right: var(--sidebar-width) !important;
       }
-    </style>
-  </body>
+    }
+
+    body[data-page^="fa/"] .app-nav {
+      left: 30px;
+    }
+
+    body[data-page^="fa/"] .sidebar-toggle {
+      transform: none !important;
+      right: var(--sidebar-width) !important;
+    }
+
+    body[data-page^="fa/"].close .sidebar-toggle {
+      transform: none !important;
+      right: 0px !important;
+    }
+
+    @media (min-width: 48em) {
+      nav.app-nav {
+        margin-left: 0px !important;
+        margin-right: var(--sidebar-width) !important;
+      }
+    }
+
+    :root {
+      /* Reduce the font size */
+      /* --base-font-size: 14px; */
+
+      /* Change the theme color hue */
+      --theme-color: #45c8e5;
+
+      /* generate new cover bg color each load */
+      --cover-background-color: ;
+      /* leave cover page title black */
+      --cover-heading-color: ;
+
+      /*--sidebar-nav-pagelink-background-position: 10 10;*/
+    }
+  </style>
+</body>
+
 </html>
