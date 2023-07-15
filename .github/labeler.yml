@@ -1,0 +1,27 @@
+github:
+  - .github/**/*
+
+docs:
+  - README.md
+  - _coverpages.md
+  - en/**/*
+  - fa/**/*
+  - in/**/*
+  - tr/**/*
+
+tests:
+  - CODEOWNERS
+  - Makefile
+  - codespell.txt
+  - .editorconfig
+  - .gitignore
+  - .percy.yml
+  - .pre-commit-config.yaml
+  - .prettierignore
+  - .prettierrc
+
+website:
+  - .nojekyll
+  - index.html
+  - robots.txt
+  - scripts/**/*
