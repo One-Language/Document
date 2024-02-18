@@ -19,4 +19,4 @@ The next steps:
   <img src="https://contrib.rocks/image?repo=One-Language/Document" alt="The One Language Document Contributors">
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks/preview?repo=One-Language%2FDocument).
