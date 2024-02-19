@@ -1,10 +1,6 @@
 name: Pull Request Labeler
-
 on:
-  pull_request:
-    types: [opened, reopened]
-# on:
-#   - pull_request_target
+  - pull_request_target
 
 jobs:
   triage:
