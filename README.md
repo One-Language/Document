@@ -20,3 +20,4 @@ The next steps:
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks/preview?repo=One-Language%2FDocument).
+

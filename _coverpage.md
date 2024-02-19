@@ -13,3 +13,4 @@ One is an open-source system programming language that makes it easy to build re
 [Get Started English](/en/)
 [Get Started Persian](/fa/)
 [Get Started Turkish](/tr/)
+
