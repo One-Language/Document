@@ -1,27 +1,39 @@
 github:
-  - .github/**/*
+  - any:
+    - changed-files:
+      - any-glob-to-any-file:
+        - .github/**/*
 
 docs:
-  - README.md
-  - _coverpages.md
-  - en/**/*
-  - fa/**/*
-  - in/**/*
-  - tr/**/*
+  - any:
+    - changed-files:
+      - any-glob-to-any-file:
+        - README.md
+        - _coverpages.md
+        - en/**/*
+        - fa/**/*
+        - in/**/*
+        - tr/**/*
 
 tests:
-  - CODEOWNERS
-  - Makefile
-  - codespell.txt
-  - .editorconfig
-  - .gitignore
-  - .percy.yml
-  - .pre-commit-config.yaml
-  - .prettierignore
-  - .prettierrc
+  - any:
+    - changed-files:
+      - any-glob-to-any-file:
+        - CODEOWNERS
+        - Makefile
+        - codespell.txt
+        - .editorconfig
+        - .gitignore
+        - .percy.yml
+        - .pre-commit-config.yaml
+        - .prettierignore
+        - .prettierrc
 
 website:
-  - .nojekyll
-  - index.html
-  - robots.txt
-  - scripts/**/*
+  - any:
+    - changed-files:
+      - any-glob-to-any-file:
+        - .nojekyll
+        - index.html
+        - robots.txt
+        - scripts/**/*
