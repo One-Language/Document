@@ -26,8 +26,6 @@ tests:
               - .gitignore
               - .percy.yml
               - .pre-commit-config.yaml
-              - .prettierignore
-              - .prettierrc
 
 website:
   - any:
